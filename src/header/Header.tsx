@@ -4,15 +4,12 @@ import Nav from "../nav/Nav";
 
 
 
+function Header() {
 
-function Header(){
-
-    return(
-    <div className={s.header}>
-
-<Nav/>
-
-    </div>
+    return (
+        <div className={s.header}>
+            <Nav/>
+        </div>
     )
 }
 

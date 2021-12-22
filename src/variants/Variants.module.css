@@ -1,0 +1,21 @@
+.variantsBlock{
+    width: 100%;
+    height: 30vh;
+    background-color: #a49d74;
+    border: 1px solid;
+    text-align: center;
+
+
+}
+.variantsContainer{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title{
+    background-color: darkgray;
+}
+.button{
+    width: 150px;
+    height: 30px;
+
+}
