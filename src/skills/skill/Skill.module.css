@@ -4,9 +4,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
+    word-break: break-all;
+    text-indent: 10px;
 
 }
 .icon{
@@ -17,8 +18,8 @@
 }
 .description{
 
-    margin-left: auto;
-    margin-right: auto;
+
+
 
 
 
