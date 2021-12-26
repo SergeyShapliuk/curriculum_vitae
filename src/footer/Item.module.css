@@ -1,8 +1,7 @@
 .item{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     width: 60px;
     height: 60px;
     background-color: #a4a4b7;
+    margin: 10px;
+
 }

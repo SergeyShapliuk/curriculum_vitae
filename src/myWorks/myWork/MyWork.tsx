@@ -8,7 +8,10 @@ function MyWork(props:any){
 
     return(
         <div className={s.myWork}>
-            <div className={s.image}></div>
+            <div  className={s.imageContainer}>
+                <img src={props.img} alt={'картинка'}/>
+                <a  href={props.href} className={s.href}>Watch</a>
+            </div>
             <h3 className={s.title}>{props.title}</h3>
             <span className={s.description}>{props.description}</span>
 

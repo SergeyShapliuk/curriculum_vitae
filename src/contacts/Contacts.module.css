@@ -1,5 +1,6 @@
 .contactsBlock{
-    height: 100vh;
+    width: 100%;
+    height: 50vh;
     background-color: coral;
 }
 
@@ -11,8 +12,6 @@
     background-color: darkgray;
 }
 .contacts{
-    border: 1px solid;
-    width: 100%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
