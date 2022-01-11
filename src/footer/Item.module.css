@@ -4,4 +4,9 @@
     background-color: #a4a4b7;
     margin: 10px;
 
+
+
+}
+.item:hover{
+    transform: scale(1.2);
 }

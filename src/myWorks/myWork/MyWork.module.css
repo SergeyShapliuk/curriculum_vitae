@@ -8,8 +8,15 @@
     margin-right: auto;
     word-break: break-all;
     text-indent: 10px;
+    transition: 1s;
 
-
+}
+.myWork:hover{
+    opacity: 0.7;
+    -webkit-transform: rotateZ(20deg);
+    -ms-transform: rotateZ(20deg);
+    transform: rotateZ(20deg);
+    cursor: pointer;
 }
 .imageContainer{
     width: 100%;
