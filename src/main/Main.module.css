@@ -1,12 +1,15 @@
 .mainBlock {
     height: 100vh;
-    background-color: cadetblue;
+    background-color: #1d1d1d;
 }
 
 
 .text {
-    width: 300px;
-    background-color: aliceblue;
+    max-width: 300px;
+    font-family: 'Bebas Neue', cursive;
+    color: #08fdd8;
+    font-size: xx-large;
+    letter-spacing: 0.2em;
 }
 
 .photo {
@@ -29,14 +32,15 @@
     transform: scale(1.05);
     filter: grayscale(0);
 }
-.typeWriter h1{
-    color: #913838;
-    font-family: monospace;
+.typeWriter h3{
+    color: #08fdd8;
+    font-family:'Press Start 2P', cursive;
     overflow: hidden;
-    border-right: .15em solid orange;
+    border-right: .15em solid #c8e1ff;
     white-space: nowrap;
     margin: 0 auto;
-    letter-spacing: .07em;
+    font-size: medium;
+    letter-spacing: 0.7px;
     animation:
             typing 3.5s steps(30, end),
             blink-caret .5s step-end infinite;
@@ -47,4 +51,4 @@
 }
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: orange }}
+    50% { border-color:#c8e1ff }}

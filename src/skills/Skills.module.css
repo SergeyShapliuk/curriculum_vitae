@@ -1,6 +1,6 @@
 .skillsBlock {
     min-height: 100vh;
-    background-color: saddlebrown;
+    background-color: #1d1d1d;
 
 
 }
@@ -12,10 +12,12 @@
 
 }
 .title{
-    background-color: darkgray;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    color:  #08fdd8;
 }
 .skills{
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;

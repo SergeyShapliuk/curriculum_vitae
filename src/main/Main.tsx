@@ -13,7 +13,7 @@ function Main() {
                     <span>Hi There</span>
                     <h1>I am Sergey Shaplyuk</h1>
                     <p>
-                        <span className={s.typeWriter}><h1>Frontend Developer</h1></span>
+                        <span className={s.typeWriter}><h3>Frontend Developer</h3></span>
                         </p>
                 </div>
                 <div className={s.photo}>

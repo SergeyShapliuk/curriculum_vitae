@@ -9,7 +9,7 @@ function Nav(){
     return(
         <div className={s.nav}>
 
-           <a href={""}>Main</a>
+           <a href={""} >Main</a>
            <a href={""}>Skills</a>
            <a href={""}>Pet Projects</a>
            <a href={""}>Contacts</a>

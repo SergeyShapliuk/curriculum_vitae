@@ -1,6 +1,6 @@
 {
-  "name": "curriculum_vitae",
-  "homepage": "https://SergeyShapliuk.github.io/curriculum_vitae/",
+  "name": "portfolio",
+  "homepage": "https://SergeyShapliuk.github.io/portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,6 +11,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
+    "node-sass-install": "^1.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
