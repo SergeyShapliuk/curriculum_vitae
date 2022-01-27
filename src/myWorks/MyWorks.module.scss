@@ -1,0 +1,23 @@
+.myWorksBlock {
+  min-height: 70vh;
+
+  .myWorksContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .myWorks {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      align-items: flex-start;
+      @media screen and (max-width: 1129px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+

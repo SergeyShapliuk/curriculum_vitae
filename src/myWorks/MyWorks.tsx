@@ -1,21 +1,30 @@
 import React from "react";
-import s from './MyWorks.module.css'
+import s from './MyWorks.module.scss'
 import styleContainer from "../common/styles/Container.module.css";
 import MyWork from "./myWork/MyWork";
-import js from '../common/image/js.png'
+import js from '../assets/image/js.png'
+import Title from "../common/Title/Title";
 
 
 function MyWorks() {
+    const socialNetwork = {
+        color: 'blue',
+        backgroundImage: `url(${js})`,
+    };
     return (
         <div className={s.myWorksBlock}>
             <div className={`${styleContainer.container} ${s.myWorksContainer}`}>
-                <h2 className={s.title}>My Works</h2>
+                <Title title={"My Works"}/>
                 <div className={s.myWorks}>
-                    <MyWork img={js} title={'Kabzda React'} description={'vksdvnlsfnwgergergergerge rgergregvlfsvnln'}
+                    <MyWork style={socialNetwork} title={'Kabzda React'}
+                            description={'vksdvnlsfnwgergergergerge rgergregvlfsvnln'}
                             href={''}/>
-                    <MyWork img={''} title={'Social network'} description={'vksdvnlsfnvrgregergreg lfsvnln'} href={''}/>
+                    <MyWork title={'Social network'}
+                            description={'vksdvnlsfnvrgregergreg lfsvnlndbfdbfbdfbdfbdfbdfbdfbdfbdfbdfbdfbdfbdfb'}
+                            href={''}/>
                     <MyWork title={'Kabzda Js'}
-                            description={'vksdvnlsfnvlfsvn ergregregerger ergergregergergerg ergrgln'} href={''}/>
+                            description={'vksdvnlsfnvlfsvn ergregregerger ergergregergergerg ergrgln'}
+                            href={''}/>
 
                 </div>
             </div>

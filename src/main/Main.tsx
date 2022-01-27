@@ -1,7 +1,7 @@
 import React from "react";
 import s from './Main.module.css'
 import styleContainer from '../common/styles/Container.module.css'
-import smile from '../common/image/smile.jpg'
+import smile from '../assets/image/smile.jpg'
 
 
 
