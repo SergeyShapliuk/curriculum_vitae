@@ -7,18 +7,18 @@
     font-size: 30px;
     line-height:1.2 ;
     position: relative;
-}
+    &::before{
+        content: "";
+        position: absolute;
+        background: #08fdd8;
+        width: 55px;
+        height: 2px;
+        bottom: -30px;
+        left: 50%;
+        transform:translate(-50%,50%);
+    }
 .title h2{
     margin: 0;
 }
-.title::before{
-    content: "";
-    position: absolute;
-    background: #08fdd8;
-    width: 55px;
-    height: 2px;
-    bottom: -30px;
-    left: 50%;
-    transform:translate(-50%,50%);
-
 }
+

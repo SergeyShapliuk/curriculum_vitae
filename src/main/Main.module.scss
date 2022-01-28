@@ -1,13 +1,14 @@
+@import "../common/styles/sass/variables";
 .mainBlock {
     height: 100vh;
-    background-color: #1d1d1d;
+    background-color: $bgColor;
 }
 
 
 .text {
     max-width: 300px;
     font-family: 'Bebas Neue', cursive;
-    color: #08fdd8;
+    color: $primaryColor;
     font-size: xx-large;
     letter-spacing: 0.2em;
 }
@@ -33,7 +34,7 @@
     filter: grayscale(0);
 }
 .typeWriter h3{
-    color: #08fdd8;
+    color: $primaryColor;
     font-family:'Press Start 2P', cursive;
     overflow: hidden;
     border-right: .15em solid #c8e1ff;
