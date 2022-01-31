@@ -8,6 +8,9 @@ import Variants from "./variants/Variants";
 import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footer";
 
+
+
+
 function App() {
     return (
         <div className="App">

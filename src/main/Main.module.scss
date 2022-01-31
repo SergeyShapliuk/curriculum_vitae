@@ -5,13 +5,22 @@
 }
 
 
-.text {
+.text  {
     max-width: 300px;
     font-family: 'Bebas Neue', cursive;
     color: $primaryColor;
     font-size: xx-large;
     letter-spacing: 0.2em;
+
+
 }
+.name{
+
+    -webkit-text-shadow: 6px 1px 0px rgba(103,  193,  187, 0.5);
+    -moz-text-shadow: 6px 1px 0px rgba(103,  193,  187, 0.5);
+    text-shadow: 6px 1px 0px rgba(103,  193,  187, 0.5);
+}
+
 
 .photo {
     display: inline-block;

@@ -1,7 +1,9 @@
+@import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
 .footerBlock{
     width: 100%;
-    height: 30vh;
-    background-color: #8cb26f;
+    height: 20vh;
+    background-color: $bgSecondColor;
     text-align: center;
 
 }
@@ -10,11 +12,14 @@
     justify-content: flex-start;
 }
 .title{
-    background-color: darkgray;
+    @include text ($footerTitleFontFamily,28px,1.2);
+    color: $primaryColor;
+    letter-spacing: 1.2px;
+    margin: 0 0 5px;
+
 }
 .items{
     width: 100%;
-    border: 1px solid;
     display: flex;
     justify-content: center;
 }

@@ -1,0 +1,16 @@
+@import "./variables";
+
+@mixin text ($fontFamily,$fontSize,$lineHeight){
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  color: $textColor;
+}
+@mixin title(){
+  background: #457e9f;
+  background: -webkit-linear-gradient(to bottom, #457e9f 0%, #0bc099 54%, #21e3de 77%);
+  background: -moz-linear-gradient(to bottom, #457e9f 0%, #0bc099 54%, #21e3de 77%);
+  background: linear-gradient(to bottom, #457e9f 0%, #0bc099 54%, #21e3de 77%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

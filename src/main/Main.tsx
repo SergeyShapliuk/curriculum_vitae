@@ -11,7 +11,7 @@ function Main() {
             <div className={styleContainer.container}>
                 <div className={s.text}>
                     <span>Hi There</span>
-                    <h1>I am Sergey Shaplyuk</h1>
+                    <h1 className={s.name}>I'm Sergey Shaplyuk</h1>
                     <p>
                         <span className={s.typeWriter}><h3>Frontend Developer</h3></span>
                         </p>
