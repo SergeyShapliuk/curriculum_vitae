@@ -3,6 +3,8 @@ import s from './Skills.module.css'
 import styleContainer from '../common/styles/Container.module.css'
 import Skill from "./skill/Skill";
 import Title from "../common/Title/Title";
+import MyWorks from "../myWorks/MyWorks";
+import Contacts from "../contacts/Contacts";
 
 
 function Skills() {
@@ -17,6 +19,7 @@ function Skills() {
                     <Skill title={'Type Script'} description={'lkswflskdnflknsdl'}/>
                 </div>
             </div>
+            <MyWorks/>
         </div>
     )
 }

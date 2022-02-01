@@ -1,0 +1,94 @@
+@import "../../../common/styles/sass/mixins";
+
+.section {
+  width: 50vw;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #08fdd8;
+
+  animation: floating 5s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+
+.tilt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  animation: tilting 10s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+
+.section span {
+
+  transition: font-weight 0.4s ease-in;
+  animation: floating-secondary 2.5s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+
+.section span:nth-child(1) {
+  animation-delay: 1s;
+}
+
+.section span:nth-child(2) {
+  animation-delay: 2s;
+}
+
+.section span:nth-child(3) {
+  animation-delay: 3s;
+}
+
+.section span:nth-child(4) {
+  animation-delay: 4s;
+}
+
+.section span:nth-child(5) {
+  animation-delay: 5s;
+}
+
+.section span:nth-child(6) {
+  animation-delay: 6s;
+}
+
+.section span:nth-child(7) {
+  animation-delay: 7s;
+}
+
+.section span:hover {
+  font-weight: 100;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 1vh);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes floating-secondary {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 0.1vh);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes tilting {
+  0% {
+    transform: rotate(1deg);
+  }
+  50% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(1deg);
+  }
+}

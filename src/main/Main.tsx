@@ -2,6 +2,8 @@ import React from "react";
 import s from './Main.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import smile from '../assets/image/smile.jpg'
+import ButtonHireMe from "../common/feature/button hire me/ButtonHireMe";
+
 
 
 
@@ -19,8 +21,10 @@ function Main() {
                 <div className={s.photo}>
                     <img src={smile}/>
                 </div>
+
             </div>
         </div>
+
     )
 }
 

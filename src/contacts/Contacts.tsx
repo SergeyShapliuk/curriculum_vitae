@@ -2,29 +2,28 @@ import React from "react";
 import s from './Contacts.module.scss'
 import styleContainer from "../common/styles/Container.module.css";
 import Title from "../common/Title/Title";
+import Footer from "../footer/Footer";
 
 
+function Contacts() {
 
 
-
-function Contacts(){
-
-
-    return(
+    return (
         <div className={s.contactsBlock}>
             <div className={`${styleContainer.container} ${s.contactsContainer}`}>
-            <Title title={'Contacts'}/>
-            <div className={s.contactForm}>
-                <form>
-                    <input type={"text"} name={"name"} placeholder={' Your name'}/><br/>
-                    <input type={"text"} name={"email"} placeholder={' Your email'}/><br/>
-                    <textarea name={"message"} placeholder={' Your message'}/><br/>
-                    <button>Send</button>
-                </form>
-
+                <Title title={'Contacts'}/>
+                <div className={s.contactForm}>
+                    <form>
+                        <input type={"text"} name={"name"} placeholder={' Your name'}/><br/>
+                        <input type={"text"} name={"email"} placeholder={' Your email'}/><br/>
+                        <textarea name={"message"} placeholder={' Your message'}/><br/>
+                        <button>Send</button>
+                    </form>
+                </div>
             </div>
-            </div>
+            <Footer/>
         </div>
     )
 }
+
 export default Contacts;
