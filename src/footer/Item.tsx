@@ -1,6 +1,5 @@
 import React from "react";
 import s from "./Item.module.scss"
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 
 function Item(props: any) {

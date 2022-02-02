@@ -1,11 +1,8 @@
 @import "../common/styles/sass/variables.scss";
 .header{
     height: 80px;
-    background-color:$bgSecondColor;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
-
-
 
 }

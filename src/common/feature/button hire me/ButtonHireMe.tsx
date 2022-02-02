@@ -2,8 +2,8 @@ import React from "react";
 import s from './ButtonHireMe.module.scss'
 
 
-function ButtonHireMe(){
-    return(
+function ButtonHireMe() {
+    return (
         <div className={s.section}>
             <div className={s.tilt}>
                 <span>H</span>
@@ -14,9 +14,8 @@ function ButtonHireMe(){
                 <span>M</span>
                 <span>E</span>
             </div>
-
-    </div>
+        </div>
     )
-
 }
+
 export default ButtonHireMe;

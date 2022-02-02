@@ -1,64 +1,47 @@
 @import "../common/styles/sass/variables";
 @import "../common/styles/sass/mixins";
+
 .mainBlock {
-    height: 100vh;
-    background-color: $bgColor;
-}
+  height: 100%;
+  background-color: $bgColor;
+  margin: 0;
 
-
-.text  {
+  .text {
     max-width: 300px;
     font-family: 'Bebas Neue', cursive;
     color: $primaryColor;
     font-size: xx-large;
     letter-spacing: 0.2em;
-    @include title();
-}
-.name{
 
-    -webkit-text-shadow: 6px 1px 0px rgba(103,  193,  187, 0.5);
-    -moz-text-shadow: 6px 1px 0px rgba(103,  193,  187, 0.5);
-    text-shadow: 6px 1px 0px rgba(103,  193,  187, 0.5);
-}
+    .name {
+      text-shadow: 6px 1px 0 rgba(103, 193, 187, 0.5);
+    }
+  }
 
-
-.photo {
+  .photo {
     display: inline-block;
     overflow: hidden;
 
+    & img {
+      max-width: 300px;
+      height: 400px;
+      width: 100%;
+      display: block;
+      object-fit: cover;
+      transition: 1s linear;
+      filter: brightness(1) opacity(0.7);
+    }
+
+    & img:hover {
+      transform: scale(1.05);
+      filter: grayscale(0);
+    }
+  }
 }
-.photo img{
-    max-width: 300px;
-    height: 400px;
-    width: 100%;
-    display: block;
-    object-fit: cover;
-    transition: 1s linear;
-    filter: brightness(1) opacity(0.7);
 
 
-}
-.photo img:hover{
-    transform: scale(1.05);
-    filter: grayscale(0);
-}
-.typeWriter h3{
-    color: $primaryColor;
-    font-family:'Press Start 2P', cursive;
-    overflow: hidden;
-    border-right: .15em solid #c8e1ff;
-    white-space: nowrap;
-    margin: 0 auto;
-    font-size: medium;
-    letter-spacing: 0.7px;
-    animation:
-            typing 3.5s steps(30, end),
-            blink-caret .5s step-end infinite;
-}
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color:#c8e1ff }}
+
+
+
+
+

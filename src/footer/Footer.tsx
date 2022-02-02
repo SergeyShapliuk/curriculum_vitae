@@ -6,20 +6,12 @@ import gitHub from "../assets/image/icon-github.png"
 import linkedin from "../assets/image/icon-linkedin.png"
 
 
-
-
-
-
-
-
-
-
 function Footer() {
-    const iconGitHub= {
+    const iconGitHub = {
         color: 'blue',
         backgroundImage: `url(${gitHub})`,
     };
-    const iconLinkedin= {
+    const iconLinkedin = {
         color: 'blue',
         backgroundImage: `url(${linkedin})`,
     };
@@ -30,7 +22,6 @@ function Footer() {
                 <div className={s.items}>
                     <Item style={iconGitHub}/>
                     <Item style={iconLinkedin}/>
-
                 </div>
             </div>
             <span><b>&copy;{new Date().getFullYear()} All right reserved</b></span>
