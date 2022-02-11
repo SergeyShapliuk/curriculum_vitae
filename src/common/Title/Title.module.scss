@@ -1,26 +1,28 @@
 @import "../../common/styles/sass/mixins";
 .title {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0 0 30px;
     letter-spacing: 2px;
-    color:  #08fdd8;
     text-transform: capitalize;
-    font-size: 30px;
-    line-height:1.2 ;
+    font-size: 25px;
+    line-height: 1.2;
     position: relative;
     @include title();
-    &::before{
+
+    &::before {
         content: "";
         position: absolute;
-        background: #08fdd8;
+        background: #fff;
         width: 70px;
         height: 2px;
         bottom: 10px;
         left: 50%;
-        transform:translate(-50%,50%);
+        transform: translate(-50%, 50%);
     }
-.title h2{
-    margin: 0;
+
+    .title h2 {
+        margin: 0;
+    }
 }
-}
+
 

@@ -7,10 +7,10 @@
   color: $textColor;
 }
 @mixin title(){
-  background: #457e9f;
-  background: -webkit-linear-gradient(to bottom, #457e9f 0%, #0bc099 54%, #21e3de 77%);
-  background: -moz-linear-gradient(to bottom, #457e9f 0%, #0bc099 54%, #21e3de 77%);
-  background: linear-gradient(to bottom, #457e9f 0%, #0bc099 54%, #21e3de 77%);
+  background: #ffb400;
+  //background: -webkit-linear-gradient(to bottom, #ffb400 0%, #ffe71a 54%, #ffe71a 77%);
+  //background: -moz-linear-gradient(to bottom, #ffb400 0%, #ffe71a  54%, #ffe71a 77%);
+  //background: linear-gradient(to bottom,#ffb400 0%, #ffe71a  54%,#ffe71a 77%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

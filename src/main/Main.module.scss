@@ -2,42 +2,59 @@
 @import "../common/styles/sass/mixins";
 
 .mainBlock {
-  height: 100%;
-  background-color: $bgColor;
+  min-height: 100vh;
   margin: 0;
+  background-color: #111;
 
-  .text {
-    max-width: 300px;
-    font-family: 'Bebas Neue', cursive;
-    color: $primaryColor;
-    font-size: xx-large;
-    letter-spacing: 0.2em;
-
-    .name {
-      text-shadow: 6px 1px 0 rgba(103, 193, 187, 0.5);
-    }
-  }
-
-  .photo {
-    display: inline-block;
-    overflow: hidden;
-
-    & img {
-      max-width: 300px;
-      height: 400px;
-      width: 100%;
-      display: block;
-      object-fit: cover;
-      transition: 1s linear;
-      filter: brightness(1) opacity(0.7);
-    }
-
-    & img:hover {
-      transform: scale(1.05);
-      filter: grayscale(0);
-    }
-  }
 }
+.text {
+  max-width: 400px;
+  font-family:'Poppins', sans-serif;
+  color: $primaryColor;
+  font-size: xx-large;
+  letter-spacing: 0.1em;
+ text-align: center;
+  overflow: hidden;
+
+}
+.text p{
+  font-family: 'Open Sans', sans-serif;
+  margin: 15px 0 28px;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #fff;
+
+
+}
+
+.photo {
+  height: 400px;
+  max-width: 300px;
+  width: 100%;
+  object-fit: cover;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 90%);
+
+}
+
+//.photo img {
+//  background-size: cover;
+//  background-repeat: no-repeat;
+//  background-position: center;
+//  height: calc(100vh - 280px);
+//  width: 500px;
+//  z-index: 11;
+//  border-radius: 30px;
+//  left: 40px;
+//  top: 40px;
+//  box-shadow: 0 0 7px rgba(0, 0, 0, 90%);
+//}
+
+
+
 
 
 

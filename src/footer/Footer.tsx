@@ -1,6 +1,6 @@
 import React from "react";
 import s from './Footer.module.scss'
-import styleContainer from "../common/styles/Container.module.css";
+import styleContainer from "../common/styles/Container.module.scss";
 import Item from "./Item";
 import gitHub from "../assets/image/icon-github.png"
 import linkedin from "../assets/image/icon-linkedin.png"

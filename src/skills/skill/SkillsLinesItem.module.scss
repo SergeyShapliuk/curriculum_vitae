@@ -1,0 +1,87 @@
+.skillItems{
+  width: 500px;
+  margin: 60px auto;
+  list-style: none;
+  color: white;
+
+}
+.skillItems li{
+  margin: 20px 0;
+
+}
+.bar{
+  background-color:#353b48 ;
+  display: block;
+  height: 2px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+
+}
+.bar span{
+  height: 2px;
+  float:left ;
+  background: #2187e7;
+}
+.skillItems span:hover{
+  animation-name: initial;
+   animation-direction:reverse;
+   cursor: pointer;
+ }
+.typescript {
+  width: 60%;
+  animation: typescript 5s;
+}
+.javaScript{
+  width: 70%;
+  animation: javaScript 5s;
+}
+.react{
+  width: 70%;
+  animation: react 5s;
+}
+.html{
+  width: 50%;
+  animation: html 5s;
+}
+.css{
+  width: 50%;
+  animation: css 5s;
+}
+@keyframes typescript {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:60% ;
+  }
+}@keyframes javaScript {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:70% ;
+  }
+}@keyframes react {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:70% ;
+  }
+}@keyframes html {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:50% ;
+  }
+}@keyframes css {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:50% ;
+  }
+}

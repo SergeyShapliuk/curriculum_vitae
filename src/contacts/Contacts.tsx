@@ -1,8 +1,8 @@
 import React from "react";
 import s from './Contacts.module.scss'
-import styleContainer from "../common/styles/Container.module.css";
+import styleContainer from "../common/styles/Container.module.scss";
 import Title from "../common/Title/Title";
-import Footer from "../footer/Footer";
+
 
 
 function Contacts() {
@@ -21,7 +21,6 @@ function Contacts() {
                     </form>
                 </div>
             </div>
-            <Footer/>
         </div>
     )
 }

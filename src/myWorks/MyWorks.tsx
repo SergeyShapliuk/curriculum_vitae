@@ -1,6 +1,6 @@
 import React from "react";
 import s from './MyWorks.module.scss'
-import styleContainer from "../common/styles/Container.module.css";
+import styleContainer from "../common/styles/Container.module.scss";
 import MyWork from "./myWork/MyWork";
 import todolistImage from '../assets/image/todolistImage.jpg'
 import socialNetImage from '../assets/image/socialNetworkImage.jpg'
