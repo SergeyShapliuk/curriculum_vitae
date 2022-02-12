@@ -1,7 +1,7 @@
 @import "../common/styles/sass/variables.scss";
 
 .skillsBlock {
-    min-height: 100vh;
+    min-height: 80vh;
     background-color:$bgColor;
 }
 
@@ -16,6 +16,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 30px;
+
 
 
 }

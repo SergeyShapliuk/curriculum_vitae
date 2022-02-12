@@ -8,6 +8,7 @@ import counterImage from '../assets/image/image-for-min.png'
 import Title from "../common/Title/Title";
 
 
+
 function MyWorks() {
     const todolist = {
         color: 'blue',
@@ -21,6 +22,7 @@ function MyWorks() {
         color: 'blue',
         backgroundImage: `url(${counterImage})`,
     };
+
     return (
         <div className={s.myWorksBlock}>
             <div className={`${styleContainer.container} ${s.myWorksContainer}`}>
@@ -28,7 +30,7 @@ function MyWorks() {
                 <div className={s.myWorks}>
                     <MyWork style={socialNetwork} title={'Social Network'}
                             description={'vksdvnlsfnwgergergergerge rgergregvlfsvnln'}
-                            href={''}/>
+                            href={''} />
                     <MyWork style={todolist} title={'JS Lesson'}
                             description={'vksdvnlsfnvrgregergreg lfsvnlndbfdbfbdfbdfbdfbdfbdfbdfbdfbdfbdfbdfbdfb'}
                             href={''}/>

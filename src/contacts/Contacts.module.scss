@@ -1,9 +1,10 @@
 @import "../common/styles/sass/variables";
 
 .contactsBlock {
-  width: 100%;
-  min-height: 60vh;
+  min-height: 80vh;
   background-color: $bgColor;
+  margin: 0;
+
 
 }
 
@@ -12,43 +13,87 @@
   justify-content: flex-start;
 }
 
+.contactForm {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
 
-//.contactForm input,
-//.contactForm textarea {
-//  display: flex;
-//  justify-content: space-between;
-//  flex-wrap: wrap;
-//  width: 350px;
-//  height: 30px;
-//  border: 1px solid #aaa;
-//  box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
-//  border-radius: 5px;
-//}
+}
 
-//.contactForm textarea {
-//  height: 100px;
-//}
+input {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 350px;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #aaa;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #eee inset;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.contactForm textarea {
+  max-width: 730px;
+  width: 100%;
+  height: 100px;
+  border: 1px solid #aaa;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #eee inset;
+  border-radius: 5px;
+  margin-top: 10px;
+
+}
 
 //.contactForm input:focus,
 //.contactForm textarea:focus {
-//  background: #fff;
+//  background: #dad9d9;
 //  border: 1px solid #555;
 //  box-shadow: 0 0 3px #aaa;
 //}
+button {
+
+  border-radius: 4px;
+  background-color: #bbb15c;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 30px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+}
 
 button {
-  width: 200px;
-  background-color: #68b12f;
-  color: white;
-  font-weight: bold;
-  padding: 6px 20px;
-  text-align: center;
-  text-shadow: 0 -1px 0 #396715;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 10px;
+  right: -10px;
+  transition: 0.5s;
 }
 
 button:hover {
-  opacity: .85;
-  cursor: pointer;
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
 }
 
 

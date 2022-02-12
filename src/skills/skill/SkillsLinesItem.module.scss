@@ -1,9 +1,19 @@
+@import "../../common/styles/sass/variables";
+.skillItemsBlock{
+  min-height: 100vh;
+  background-color:$bgColor;
+
+}
+.skillsLinesContainer{
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+}
 .skillItems{
   width: 500px;
   margin: 60px auto;
   list-style: none;
   color: white;
-
 }
 .skillItems li{
   margin: 20px 0;
@@ -30,15 +40,27 @@
    cursor: pointer;
  }
 .typescript {
-  width: 60%;
+  width: 67%;
   animation: typescript 5s;
 }
 .javaScript{
-  width: 70%;
+  width: 60%;
   animation: javaScript 5s;
 }
 .react{
   width: 70%;
+  animation: react 5s;
+}
+.redux{
+  width: 75%;
+  animation: react 5s;
+}
+.axios{
+  width: 80%;
+  animation: react 5s;
+}
+.git{
+  width: 63%;
   animation: react 5s;
 }
 .html{
@@ -46,7 +68,7 @@
   animation: html 5s;
 }
 .css{
-  width: 50%;
+  width: 74%;
   animation: css 5s;
 }
 @keyframes typescript {

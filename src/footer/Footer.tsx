@@ -1,30 +1,30 @@
 import React from "react";
 import s from './Footer.module.scss'
 import styleContainer from "../common/styles/Container.module.scss";
-import Item from "./Item";
-import gitHub from "../assets/image/icon-github.png"
-import linkedin from "../assets/image/icon-linkedin.png"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faLinkedin} from "@fortawesome/free-brands-svg-icons/faLinkedin";
+import {faGithubSquare} from "@fortawesome/free-brands-svg-icons/faGithubSquare";
+import FloatText from "../common/feature/button hire me/FloatText";
+
+
 
 
 function Footer() {
-    const iconGitHub = {
-        color: 'blue',
-        backgroundImage: `url(${gitHub})`,
-    };
-    const iconLinkedin = {
-        color: 'blue',
-        backgroundImage: `url(${linkedin})`,
-    };
+
     return (
         <div className={s.footerBlock}>
             <div className={`${styleContainer.container} ${s.footerContainer}`}>
-                <h2 className={s.title}>Sergey Shaplyuk</h2>
-                <div className={s.items}>
-                    <Item style={iconGitHub}/>
-                    <Item style={iconLinkedin}/>
+                <div className={s.title}>
+                    <FloatText/>
                 </div>
+                <div className={s.items}>
+
+                    <FontAwesomeIcon icon={faLinkedin} className={s.linkedin}/>
+                    <FontAwesomeIcon icon={faGithubSquare}/>
+
+                </div>
+                <span><b>Copyright &copy; {new Date().getFullYear()}. All right reserved.</b></span>
             </div>
-            <span><b>&copy;{new Date().getFullYear()} All right reserved</b></span>
         </div>
     )
 }

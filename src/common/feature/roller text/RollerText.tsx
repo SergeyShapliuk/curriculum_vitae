@@ -1,6 +1,6 @@
 import React from "react";
 import s from './RollerText.module.scss'
-import ButtonHireMe from "../button hire me/ButtonHireMe";
+import ButtonHireMe from "../button hire me/FloatText";
 import {Link} from "react-router-dom";
 
 
