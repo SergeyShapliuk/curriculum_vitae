@@ -31,7 +31,7 @@ function MyWorks() {
                     <MyWork style={socialNetwork} title={'Social Network'}
                             description={'vksdvnlsfnwgergergergerge rgergregvlfsvnln'}
                             href={''} />
-                    <MyWork style={todolist} title={'JS Lesson'}
+                    <MyWork style={todolist} title={'Todo-List'}
                             description={'vksdvnlsfnvrgregergreg lfsvnlndbfdbfbdfbdfbdfbdfbdfbdfbdfbdfbdfbdfbdfb'}
                             href={''}/>
                     <MyWork style={counter} title={'Counter'}

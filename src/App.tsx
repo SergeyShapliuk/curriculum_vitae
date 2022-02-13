@@ -6,7 +6,7 @@ import Skills from "./skills/Skills";
 import MyWorks from "./myWorks/MyWorks";
 import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footer";
-import SkillItem from "./skills/skill/SkilIsLinesItem";
+import SkillItem from "./skills/skillsLinesItem/SkilIsLinesItem";
 
 
 function App() {

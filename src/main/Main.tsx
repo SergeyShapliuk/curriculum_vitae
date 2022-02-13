@@ -9,7 +9,7 @@ import TypeWrite from "../common/feature/type writer/TypeWrite";
 function Main() {
     return (
         <div className={s.mainBlock}>
-            <div className={styleContainer.container}>
+            <div className={`${styleContainer.container} ${s.mainContainer}`}>
                 <div className={s.text}>
                     <span>Hi There</span>
                     <h2>-I'm Sergey Shaplyuk.</h2>

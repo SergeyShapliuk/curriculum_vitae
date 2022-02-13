@@ -1,8 +1,9 @@
 @import "../common/styles/sass/variables";
 
 .myWorksBlock {
-  min-height: 80vh;
-  background-color: $bgColor;
+  min-height: 100vh;
+  background-color: white;
+  padding: 30px;
 
   .myWorksContainer {
     flex-direction: column;
@@ -17,6 +18,7 @@
       align-items: flex-start;
       @media screen and (max-width: 1129px) {
         justify-content: center;
+
       }
     }
   }

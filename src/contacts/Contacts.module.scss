@@ -3,7 +3,7 @@
 .contactsBlock {
   min-height: 80vh;
   background-color: $bgColor;
-  margin: 0;
+  padding: 30px;
 
 
 }
@@ -12,9 +12,19 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+.discuss{
+  color: white;
+  font-size: 20px;
+}
+.discuss li{
+  color:#bbb15c ;
 
+}
+.discuss span{
+  color: white;
+}
 .contactForm {
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -24,37 +34,29 @@
 
 }
 
-input {
+.contactForm input {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 350px;
+  max-width: 400px;
   width: 100%;
   height: 50px;
-  border: 1px solid #aaa;
   box-shadow: 0 0 3px #ccc, 0 10px 15px #eee inset;
   border-radius: 5px;
   margin: 10px;
 }
 
 .contactForm textarea {
-  max-width: 730px;
+  max-width: 830px;
   width: 100%;
   height: 100px;
-  border: 1px solid #aaa;
   box-shadow: 0 0 3px #ccc, 0 10px 15px #eee inset;
   border-radius: 5px;
   margin-top: 10px;
 
 }
 
-//.contactForm input:focus,
-//.contactForm textarea:focus {
-//  background: #dad9d9;
-//  border: 1px solid #555;
-//  box-shadow: 0 0 3px #aaa;
-//}
-button {
+.contactForm button {
 
   border-radius: 4px;
   background-color: #bbb15c;
@@ -67,33 +69,35 @@ button {
   transition: all 0.5s;
   cursor: pointer;
   margin: 30px;
+  display: inline-block;
+  position: relative;
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
 }
 
-button {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-button:after {
+.contactForm button:after {
   content: '»';
   position: absolute;
   opacity: 0;
-  top: 10px;
+  top: 8px;
   right: -10px;
   transition: 0.5s;
 }
 
-button:hover {
+.contactForm button:hover {
   padding-right: 24px;
   padding-left: 8px;
 }
 
-button:hover:after {
+.contactForm button:hover:after {
   opacity: 1;
   right: 10px;
 }
+@media screen and (max-width: 1129px) {
 
+.contactForm input{
+  min-width: 700px;
+
+}
+
+}
 

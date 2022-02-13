@@ -12,7 +12,7 @@
     &::before {
         content: "";
         position: absolute;
-        background: #fff;
+        background:$primaryColor;
         width: 70px;
         height: 2px;
         bottom: 10px;

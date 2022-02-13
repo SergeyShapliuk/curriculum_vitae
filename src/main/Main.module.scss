@@ -6,8 +6,12 @@
   margin: 0;
   background-color: #111;
 
-}
 
+}
+.mainContainer{
+  display: flex;
+  justify-content:space-evenly;
+}
 .text {
   max-width: 400px;
   font-family: 'Poppins', sans-serif;
