@@ -5,12 +5,14 @@
   min-height: 100vh;
   margin: 0;
   background-color: #111;
+  display: flex;
 
 
 }
 .mainContainer{
   display: flex;
   justify-content:space-evenly;
+
 }
 .text {
   max-width: 400px;

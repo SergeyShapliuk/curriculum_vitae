@@ -8,7 +8,9 @@ function SkillItem() {
 
         <div className={s.skillItemsBlock}>
             <div className={`${styleContainer.container} ${s.skillsLinesContainer}`}>
+
                 <div className={s.skillItems}>
+
                     <li>
                         <h3>TypeScript - 67%</h3><span className={s.bar}><span className={s.typescript}></span></span>
                     </li>
@@ -36,6 +38,7 @@ function SkillItem() {
                 </div>
             </div>
         </div>
+
     )
 }
 
