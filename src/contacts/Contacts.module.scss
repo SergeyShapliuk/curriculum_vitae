@@ -18,10 +18,16 @@
 }
 .discuss li{
   color:#bbb15c ;
+  list-style-type:none;
 
-}
+
+  }
+
 .discuss span{
   color: white;
+  line-height: 34px;
+  padding-left: 10px;
+
 }
 .contactForm {
   max-width: 900px;

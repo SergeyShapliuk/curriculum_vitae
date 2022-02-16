@@ -18,7 +18,7 @@ function Contacts() {
                 <Title title={'Contacts'}/>
                 <div className={s.discuss}>
                     <h2>Let's Discuss Your project</h2>
-                    <li><FontAwesomeIcon icon={faPhone}/><span> +375293692937</span></li>
+                    <li><FontAwesomeIcon icon={faPhone}/><span>+375293692937</span></li>
                     <li><FontAwesomeIcon icon={faEnvelope}/><span> sergeshapluk.gmail.com</span></li>
                     <li><FontAwesomeIcon icon={faLocationDot}/><span> Belarus,Minsk</span></li>
 

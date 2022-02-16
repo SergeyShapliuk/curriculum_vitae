@@ -6,7 +6,7 @@ import Skills from "./skills/Skills";
 import MyWorks from "./myWorks/MyWorks";
 import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footer";
-import SkillItem from "./skills/skillsLinesItem/SkilIsLinesItem";
+import HeaderSkills from "./header/HeaderSkills";
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
             <Header/>
             <Main/>
             <Skills/>
-            <SkillItem/>
+            <HeaderSkills/>
             <MyWorks/>
             <Contacts/>
             <Footer/>

@@ -1,0 +1,30 @@
+@import "../../common/styles/sass/variables";
+.educBlock{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.educContainer{
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 10px;
+
+}
+.text span{
+  color: $primaryColor;
+}
+.text h4{
+  width: 100px;
+  height: 23px;
+  text-align: center;
+  background-color: $primaryColor;
+
+}
+.text p{
+  opacity: 0.8;
+}

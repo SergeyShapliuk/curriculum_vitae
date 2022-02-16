@@ -8,7 +8,6 @@ function SkillItem() {
 
         <div className={s.skillItemsBlock}>
             <div className={`${styleContainer.container} ${s.skillsLinesContainer}`}>
-
                 <div className={s.skillItems}>
 
                     <li>
