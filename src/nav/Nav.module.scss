@@ -1,10 +1,10 @@
 @import "../common/styles/sass/variables";
 @import "../common/styles/sass/mixins";
+
 a {
   text-decoration: none;
 
 }
-
 .navBlock {
   text-decoration: none;
   padding: 0;
@@ -25,9 +25,9 @@ a {
     z-index: 9999;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #111;
+    background: $bgColor;
     border-radius: 5px;
-    box-shadow: -2px 0 15px rgba(0, 0, 0, .8);
+
     .text {
       position: relative;
       color: #fff;
@@ -65,24 +65,27 @@ a {
   }
 }
 
+//
+//.active{
+//  text-decoration: underline;
+//  color: #bbb15c;
+//
+//}
 
 
-
-
-
-  //&.container{
-  //  top: 43px;
-  //  display: flex;
-    //.text{
-    //  padding: 25px 80px;
-    //  &::before, &::after{
-    //    transform: scaleY(0);
-    //    transform-origin: bottom;
-    //  }
-    //  &:hover::before, &:hover::after{
-    //    transform: scaleY(1);
-    //    transform-origin: top;
-    //  }
-    //}
+//&.container{
+//  top: 43px;
+//  display: flex;
+//.text{
+//  padding: 25px 80px;
+//  &::before, &::after{
+//    transform: scaleY(0);
+//    transform-origin: bottom;
+//  }
+//  &:hover::before, &:hover::after{
+//    transform: scaleY(1);
+//    transform-origin: top;
+//  }
+//}
 
 

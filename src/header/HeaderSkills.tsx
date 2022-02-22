@@ -9,9 +9,12 @@ function HeaderSkills() {
 
     return (
         <div className={s.header}>
-            <div >
+            <div>
+
                 <NavSkills/>
                 <RoutersSkills/>
+
+
             </div>
 
         </div>

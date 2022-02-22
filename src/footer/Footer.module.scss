@@ -1,36 +1,42 @@
 @import "../common/styles/sass/variables";
 @import "../common/styles/sass/mixins";
-.footerBlock{
-    width: 100%;
-    height: 100%;
-    background:$bgColor;
-    text-align: center;
+
+.footerBlock {
+  width: 100%;
+  height: 100%;
+  background: $bgColor;
+  text-align: center;
 
 }
-.footerContainer{
-    flex-direction: column;
-    justify-content: flex-start;
+
+.footerContainer {
+  flex-direction: column;
+  justify-content: flex-start;
 }
-.title{
+
+.title {
   font-weight: 900;
-    color: $primaryColor;
-    letter-spacing: 1.7px;
-    margin: 0 0 35px;
+  color: $primaryColor;
+  letter-spacing: 1.7px;
+  margin: 0 0 35px;
 
 }
-.items{
-    width: 150px;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 50px;
-    color: #a29b6e;
+
+.items {
+  width: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 50px;
+  color: #a29b6e;
 }
-.linkedin{
-    color: #4d96da;
+
+.linkedin {
+  color: #4d96da;
 }
-.footerBlock span{
-margin-top: 35px;
-     color:$primaryColor;
- }
+
+.footerBlock span {
+  margin: 25px;
+  color: $primaryColor;
+}
 
 

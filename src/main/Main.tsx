@@ -1,7 +1,7 @@
 import React from "react";
 import s from './Main.module.scss'
 import styleContainer from '../common/styles/Container.module.scss'
-
+import smile from '../assets/image/smile.jpg'
 import TypeWrite from "../common/feature/type writer/TypeWrite";
 
 
@@ -15,7 +15,7 @@ function Main() {
                     <h2>-I'm Sergey Shaplyuk.</h2>
                     <TypeWrite/>
                     <p>
-                        I'm a belorussian based front‑end developer
+                        I'm a belarussian based front‑end developer
                         focused on crafting clean & user‑friendly experiences,
                         I am passionate about building excellent software that improves
                         the lives of those around me.
