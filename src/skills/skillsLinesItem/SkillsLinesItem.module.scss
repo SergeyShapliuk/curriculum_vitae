@@ -54,15 +54,15 @@
 }
 .redux{
   width: 75%;
-  animation: react 5s;
+  animation: redux 5s;
 }
 .axios{
   width: 80%;
-  animation: react 5s;
+  animation: axios 5s;
 }
 .git{
   width: 63%;
-  animation: react 5s;
+  animation: git 5s;
 }
 .html{
   width: 50%;
@@ -77,23 +77,50 @@
     width: 0%;
   }
   100%{
+    width:67% ;
+  }
+}
+@keyframes javaScript {
+  0%{
+    width: 0%;
+  }
+  100%{
     width:60% ;
   }
-}@keyframes javaScript {
+}
+@keyframes react {
   0%{
     width: 0%;
   }
   100%{
     width:70% ;
   }
-}@keyframes react {
+}
+@keyframes redux {
   0%{
     width: 0%;
   }
   100%{
-    width:70% ;
+    width:75% ;
   }
-}@keyframes html {
+}
+@keyframes axios {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:80% ;
+  }
+}
+@keyframes git {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:63% ;
+  }
+}
+@keyframes html {
   0%{
     width: 0%;
   }
@@ -105,6 +132,6 @@
     width: 0%;
   }
   100%{
-    width:50% ;
+    width:74% ;
   }
 }

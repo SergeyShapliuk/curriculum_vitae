@@ -3,11 +3,17 @@
 .itemsBlock {
   width: 60px;
   height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+border-radius: 20%;
   margin: 10px;
+  padding: 10px;
+  background-color: rgba(101, 95, 95, 0.23);
 
   .icon {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,6 +25,7 @@
     background-repeat: no-repeat;
     background-color: white;
     border-radius: 20%;
+
 
     &:hover {
       position: absolute;

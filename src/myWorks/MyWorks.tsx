@@ -26,7 +26,7 @@ function MyWorks() {
     return (
         <div className={s.myWorksBlock}>
             <div className={`${styleContainer.container} ${s.myWorksContainer}`}>
-                <Title title={"My Works"}/>
+                <Title title={"My Projects"} titleBg={'portfolio'}/>
                 <div className={s.myWorks}>
                     <MyWork style={socialNetwork} title={'Social Network'}
                             description={'vksdvnlsfnwgergergergerge rgergregvlfsvnln'}

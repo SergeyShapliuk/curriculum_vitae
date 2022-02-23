@@ -10,6 +10,7 @@ function Title(props:any){
         <div className={s.title}>
             <div>
                 <h2>{props.title}</h2>
+                <span>{props.titleBg}</span>
             </div>
 
         </div>

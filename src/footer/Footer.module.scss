@@ -12,6 +12,8 @@
 .footerContainer {
   flex-direction: column;
   justify-content: flex-start;
+
+
 }
 
 .title {
@@ -20,6 +22,7 @@
   letter-spacing: 1.7px;
   margin: 0 0 35px;
 
+
 }
 
 .items {
@@ -27,13 +30,31 @@
   display: flex;
   justify-content: space-evenly;
   font-size: 50px;
-  color: #a29b6e;
-}
 
+
+
+}
+.codeWars{
+  width: 50px;
+  height: 50px;
+ border-radius: 25%;
+  background-color: #c51111;
+
+}
 .linkedin {
-  color: #4d96da;
-}
+background-color: white;
+border-radius: 25%;
 
+}
+.gitHub{
+  background: white;
+
+}
+.telegram{
+color: white;
+  background:#4d96da;
+  border-radius: 50%;
+}
 .footerBlock span {
   margin: 25px;
   color: $primaryColor;

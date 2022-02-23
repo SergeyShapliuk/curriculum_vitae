@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 10%;
+
 }
 .educContainer{
   max-width: 500px;
@@ -13,8 +14,16 @@
   justify-content: space-between;
   color: white;
   padding: 10px;
+  position: relative;
+
 
 }
+.text{
+  position: relative;
+
+
+}
+
 .text span{
   color: $primaryColor;
 }
@@ -27,4 +36,46 @@
 }
 .text p{
   opacity: 0.8;
+}
+//.text::before{
+//  content: "";
+//  position: absolute;
+//  left: -10%;
+//  transform: translate(50%,0%);
+//  height: 100%;
+//  width: 2px;
+//  border-left: 2px #545050 solid ;
+//
+//
+//}
+.icon{
+  width: 30px;
+  height: 30px;
+  left: -15%;
+  transform: translate(50%,60%);
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+ // margin-left: -5px;
+  background-color: $primaryColor;
+  position: absolute;
+  margin-left: -5px;
+
+
+}
+.icon::before{
+  content: "";
+  position: absolute;
+  right: 0;
+  top:100%;
+  left: 40%;
+  transform: translate(50%,0%);
+  height: 320px;
+  width: 2px;
+  background:#545050  ;
+  z-index:-1;
+
+  //border-left: 2px #545050 solid ;
+
 }

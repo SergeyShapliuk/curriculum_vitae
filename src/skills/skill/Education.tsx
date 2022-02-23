@@ -1,6 +1,8 @@
 import React from "react";
 import s from './Education.module.scss'
 import styleContainer from "../../common/styles/Container.module.scss";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faBriefcase} from "@fortawesome/free-solid-svg-icons/faBriefcase";
 
 
 function Education() {
@@ -8,11 +10,14 @@ function Education() {
         <div className={s.educBlock}>
             <div className={`${styleContainer.container} ${s.educContainer}`}>
                 <div className={s.text}>
-                    <h4>2021-2022</h4>
-                    <h2>IT-INCUBATOR</h2>
-                    <h3>Frontend Developer - (JS,TypeScript,React)</h3>
+                    <div className={s.icon}>
+                        <FontAwesomeIcon  icon={faBriefcase}   />
+                    </div>
+                        <h4>2021-2022</h4>
+                        <h2>IT-INCUBATOR</h2>
+                        <h3>Frontend Developer - (JS,TypeScript,React)</h3>
 
-                    <span>Online it-school. Belarus. Minsk</span>
+                        <span>Online it-school. Belarus. Minsk</span>
 
 
                         <p>I`m a freelance creative designer with a love for minimal design,

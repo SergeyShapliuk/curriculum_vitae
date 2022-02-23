@@ -6,6 +6,7 @@
     text-transform: capitalize;
     font-size: 25px;
     line-height: 1.2;
+    //text-align: center;
     position: relative;
     @include title();
 
@@ -23,6 +24,22 @@
     .title h2 {
         margin: 0;
     }
-}
 
+}
+.title span{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    line-height: 1.2;
+    font-size: 110px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    transform: translate(-50%,-50%);
+    color: hsla(0,0%, 70%,.1);
+    @media screen and (max-width: 576px) {
+        font-size: 70px;
+
+    }
+}
 

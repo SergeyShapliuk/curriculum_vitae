@@ -7,12 +7,12 @@
   color: $textColor;
 }
 @mixin title(){
-  background: #ffb400;
+  color: #ffb400;
   //background: -webkit-linear-gradient(to bottom, #ffb400 0%, #ffe71a 54%, #ffe71a 77%);
   //background: -moz-linear-gradient(to bottom, #ffb400 0%, #ffe71a  54%, #ffe71a 77%);
   //background: linear-gradient(to bottom,#ffb400 0%, #ffe71a  54%,#ffe71a 77%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  //-webkit-background-clip: text;
+  //-webkit-text-fill-color: transparent;
 }
 @mixin box-shadow(){
   -webkit-box-shadow: 0px 5px 10px 2px rgba(17, 26, 34, 0.2);

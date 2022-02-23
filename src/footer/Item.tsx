@@ -6,7 +6,7 @@ function Item(props: any) {
 
     return (
         <div className={s.itemsBlock}>
-            <div className={s.icon} style={props.style}>
+            <div className={s.icon} style={props.style} >
             </div>
         </div>
     )

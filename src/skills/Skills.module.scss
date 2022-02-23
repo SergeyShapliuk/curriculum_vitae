@@ -4,12 +4,24 @@
     min-height: 80vh;
     background-color:white;
     margin: 50px;
+
+
+
 }
 
 .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
+    position: relative;
+
 }
+.titleBlock{
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+
+}
+
 
 .skills{
     width: 100%;
@@ -21,3 +33,4 @@
 
 
 }
+

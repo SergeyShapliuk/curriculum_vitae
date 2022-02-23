@@ -15,6 +15,7 @@ import iconCss from "../assets/image/iconCss.png";
 
 
 
+
 function Skills() {
     const js = {
         color: 'blue',
@@ -51,7 +52,7 @@ function Skills() {
     return (
         <div className={s.skillsBlock}>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
-                <Title title={'My Stack & Skills'}/>
+                   <Title title={'My Stack & Skills'} titleBg={'about'}/>
                 <div className={s.skills}>
                     <Skill style={js} title={'Java Script'}
                            description={'JavaScript , often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior,often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users devices.'}/>

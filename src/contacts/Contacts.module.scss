@@ -12,23 +12,37 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.discuss{
+
+.discuss {
+
   color: white;
   font-size: 20px;
+
+
 }
-.discuss li{
-  color:#bbb15c ;
-  list-style-type:none;
 
-
-  }
-
-.discuss span{
+.discuss li {
   color: white;
-  line-height: 34px;
-  padding-left: 10px;
+  list-style-type: none;
+
 
 }
+
+.icon {
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #bbb15c;
+  margin-top: 10px;
+}
+
+.discuss span {
+  color: white;
+  line-height: 32px;
+  padding-left: 10px;
+  vertical-align: 5px;
+
+}
+
 .contactForm {
   max-width: 900px;
   width: 100%;
