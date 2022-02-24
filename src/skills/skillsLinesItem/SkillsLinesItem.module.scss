@@ -1,20 +1,24 @@
 @import "../../common/styles/sass/variables";
 .skillItemsBlock{
   min-height: 100vh;
-  background-color:$bgColor;
+
 
 }
 .skillsLinesContainer{
   flex-direction: column;
   justify-content: flex-start;
-  overflow: hidden;
+
 }
 
 .skillItems{
-  width: 500px;
+  width: 800px;
   margin: 60px auto;
   list-style: none;
   color: white;
+  @media screen and(max-width: 800px){
+    width: 300px;
+    margin: 60px auto;
+  }
 }
 .skillItems li{
   margin: 20px 0;

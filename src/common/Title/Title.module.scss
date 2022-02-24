@@ -1,12 +1,12 @@
 @import "../../common/styles/sass/mixins";
 .title {
     font-family: 'Poppins', sans-serif;
-    margin: 0 0 30px;
+    margin: 30px 0 30px;
     letter-spacing: 2px;
     text-transform: capitalize;
     font-size: 25px;
     line-height: 1.2;
-    //text-align: center;
+    text-align: center;
     position: relative;
     @include title();
 
@@ -36,7 +36,7 @@
     text-transform: uppercase;
     font-weight: 900;
     transform: translate(-50%,-50%);
-    color: hsla(0,0%, 70%,.1);
+    color: hsla(0,0%, 50%,.1);
     @media screen and (max-width: 576px) {
         font-size: 70px;
 

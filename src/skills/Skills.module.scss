@@ -1,10 +1,10 @@
 @import "../common/styles/sass/variables.scss";
+@import "../common/styles/sass/mixins";
 
 .skillsBlock {
     min-height: 80vh;
-    background-color:white;
-    margin: 50px;
-
+    padding: 30px;
+@include backgroundLight();
 
 
 }
@@ -12,7 +12,7 @@
 .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
-    position: relative;
+
 
 }
 .titleBlock{

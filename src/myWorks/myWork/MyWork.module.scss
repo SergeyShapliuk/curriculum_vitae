@@ -12,6 +12,7 @@
   text-indent: 10px;
   transition: 1s;
   z-index: 0;
+  background-color: white;
   @include box-shadow();
 
   &:hover {
@@ -35,6 +36,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
 
     &::before {
       position: absolute;
@@ -88,6 +90,7 @@
       @include text($descriptionFontFamily, 14px, 1.8);
       font-weight: 400;
       padding: 20px;
+
 
 
     }

@@ -1,9 +1,10 @@
 @import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
 
 .myWorksBlock {
   min-height: 100vh;
-  background-color: white;
   padding: 30px;
+  @include backgroundLight();
 
   .myWorksContainer {
     flex-direction: column;
