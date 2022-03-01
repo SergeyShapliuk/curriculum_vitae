@@ -7,6 +7,7 @@ import iconGitHub from "../assets/image/icon-github.png";
 import iconLinkedin from "../assets/image/iconLinkedin.png";
 import iconTelegram from "../assets/image/icon-telegram.png";
 import Item from "./Item";
+import {Bounce} from "react-awesome-reveal";
 
 
 function Footer() {
@@ -29,7 +30,10 @@ function Footer() {
     return (
         <div className={s.footerBlock}>
             <div className={`${styleContainer.container} ${s.footerContainer}`}>
-                <FloatText/>
+               <Bounce triggerOnce>
+                   <FloatText/>
+               </Bounce>
+
                 <div className={s.items}>
                     <Item style={codeWars}/>
                     <Item style={gitHub}/>

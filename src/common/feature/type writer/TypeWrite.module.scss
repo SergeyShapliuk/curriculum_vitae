@@ -1,12 +1,9 @@
 
-//.typeWrite{
-//  padding-top: 5em;
-//  display: flex;
-//  justify-content: center;
-//  align-items:center;
-//
-//
-//}
+.typeWrite{
+  display: inline-flex;
+
+
+}
 .typeWrite h3{
   color: #fff;
   font-family:'Bebas Neue', cursive;
@@ -17,7 +14,7 @@
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .06em; /* Adjust as needed */
   animation:
-          typing 5.5s steps(100, end),
+          typing 5.5s steps(100, end) 1s 1 normal both,
           blink-caret .5s step-end infinite;
   animation-iteration-count: infinite;
 }

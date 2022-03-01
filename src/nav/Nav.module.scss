@@ -6,7 +6,6 @@ a {
 
 }
 .navBlock {
-  text-decoration: none;
   padding: 0;
   margin: 0;
   background: #111;
@@ -16,7 +15,9 @@ a {
   height: 80px;
   position: fixed;
   z-index: 9999;
-
+  //@media screen and(max-width: 576px){
+  //  width: 500px;
+  //}
 
   .container {
     display: flex;

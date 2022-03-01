@@ -6,6 +6,7 @@ import todolistImage from '../assets/image/todolistImage.jpg'
 import socialNetImage from '../assets/image/socialNetworkImage.jpg'
 import counterImage from '../assets/image/image-for-min.png'
 import Title from "../common/Title/Title";
+import {Zoom} from "react-awesome-reveal";
 
 
 
@@ -28,6 +29,7 @@ function MyWorks() {
             <div className={`${styleContainer.container} ${s.myWorksContainer}`}>
                 <Title title={"My Projects"} titleBg={'portfolio'}/>
                 <div className={s.myWorks}>
+                    <Zoom>
                     <MyWork style={socialNetwork} title={'Social Network'}
                             description={'vksdvnlsfnwgergergergerge rgergregvlfsvnln'}
                             href={''} />
@@ -37,6 +39,7 @@ function MyWorks() {
                     <MyWork style={counter} title={'Counter'}
                             description={'vksdvnlsfnvlfsvn ergregregerger ergergregergergerg ergrgln'}
                             href={''}/>
+                    </Zoom>
                 </div>
             </div>
         </div>

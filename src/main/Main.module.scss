@@ -2,9 +2,18 @@
 @import "../common/styles/sass/mixins";
 
 .mainBlock {
+
   min-height: 70vh;
 margin: 7%;
 
+}
+.particles{
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.2;
 }
 .mainContainer{
   display: flex;
@@ -58,7 +67,7 @@ margin: 7%;
   content: "";
   height: 150px;
   width: 20px;
-  left: 330px;
+  right: 0;
   top:300px;
   background: hsla(54, 100%, 30%, 0.5);
 }

@@ -7,20 +7,23 @@ import MyWorks from "./myWorks/MyWorks";
 import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footer";
 import HeaderSkills from "./header/HeaderSkills";
+import {Fade} from "react-awesome-reveal";
 
 
 function App() {
     return (
         <div className="app">
+<Fade>
 
-            <Header/>
-            <Main/>
-            <Skills/>
-            <HeaderSkills/>
-            <MyWorks/>
-            <Contacts/>
-            <Footer/>
+    <Header/>
+    <Main/>
+    <Skills/>
+    <HeaderSkills/>
+    <MyWorks/>
+    <Contacts/>
+    <Footer/>
 
+</Fade>
         </div>
     );
 }

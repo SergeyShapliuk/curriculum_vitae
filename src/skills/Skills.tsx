@@ -11,6 +11,7 @@ import iconGit from "../assets/image/iconGit.png";
 import iconAxios from "../assets/image/iconAxios.png";
 import iconHtml from "../assets/image/iconHtml.png";
 import iconCss from "../assets/image/iconCss.png";
+import {Zoom} from "react-awesome-reveal";
 
 
 
@@ -52,8 +53,10 @@ function Skills() {
     return (
         <div className={s.skillsBlock}>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
-                   <Title title={'My Stack & Skills'} titleBg={'about'}/>
+                <Title title={'My Stack & Skills'} titleBg={'about'}/>
+
                 <div className={s.skills}>
+                    <Zoom cascade={true} damping={.01} className={s.zoomSkills}>
                     <Skill style={js} title={'Java Script'}
                            description={'JavaScript , often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior,often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users devices.'}/>
                     <Skill style={typescript} title={'Typescript'}
@@ -64,6 +67,7 @@ function Skills() {
                     <Skill style={git} title={'Git'} description={'Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems)'}/>
                     <Skill style={html} title={'HTML5'} description={'HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and last[3] major HTML version that is a World Wide Web Consortium (W3C) recommendation. The current specification is known as the HTML Living Standard. It is maintained by the Web Hypertext Application Technology Working Group (WHATWG), a consortium of the major browser vendors (Apple, Google, Mozilla, and Microsoft).'}/>
                     <Skill style={css} title={'CSS'} description={'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.'}/>
+                    </Zoom>
                 </div>
 
             </div>
