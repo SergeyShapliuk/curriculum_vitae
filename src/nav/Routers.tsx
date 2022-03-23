@@ -7,6 +7,7 @@ import MyWorks from "../myWorks/MyWorks";
 
 
 
+
 function Routers(){
     return(
         <div>
@@ -16,9 +17,10 @@ function Routers(){
               <Route path={'/portfolio'} element={<MyWorks/>}/>
               <Route path={'/contacts'} element={<Contacts/>}/>
 
-              {/*<Route path={'*'} element={<Navigate to={'/'}/>}/>*/}
-              {/*<Route path={'/404'} element={<h1>404: PAGE NOT FOUND</h1>}/>*/}
-              {/*<Route path={'*'} element={<Navigate to={'/404'}/>}/>*/}
+
+              <Route path={'*'} element={<Navigate to={'/'}/>}/>
+          {/*    /!*<Route path={'/404'} element={<h1>404: PAGE NOT FOUND</h1>}/>*!/*/}
+          {/*    /!*<Route path={'*'} element={<Navigate to={'/404'}/>}/>*!/*/}
 
 
           </Routes>

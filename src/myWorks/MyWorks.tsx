@@ -25,7 +25,7 @@ function MyWorks() {
     };
 
     return (
-        <div className={s.myWorksBlock}>
+        <div id={"my_works"} className={s.myWorksBlock}>
             <div className={`${styleContainer.container} ${s.myWorksContainer}`}>
                 <Title title={"My Projects"} titleBg={'portfolio'}/>
                 <div className={s.myWorks}>

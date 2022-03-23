@@ -10,11 +10,12 @@ import {faMapLocation} from "@fortawesome/free-solid-svg-icons/faMapLocation";
 import {faGlobe} from "@fortawesome/free-solid-svg-icons/faGlobe";
 
 
+
 function Contacts() {
 
 
     return (
-        <div className={s.contactsBlock}>
+        <div id={"contacts"} className={s.contactsBlock}>
             <div className={`${styleContainer.container} ${s.contactsContainer}`}>
                 <Title title={'Contacts'} titleBg={'contacts'}/>
                 <div className={s.discuss}>
@@ -24,7 +25,6 @@ function Contacts() {
                         <li><FontAwesomeIcon icon={faEnvelope} className={s.icon}/><span> sergeshapluk.gmail.com</span></li>
                         <li><FontAwesomeIcon icon={faGlobe} className={s.icon}/><span> Belarus,Minsk</span></li>
                     </ul>
-
                 </div>
                 <div className={s.contactForm}>
                     <input type={"text"} name={"name"} placeholder={' Your name'}/>

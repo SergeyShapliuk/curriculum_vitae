@@ -51,7 +51,7 @@ function Skills() {
         backgroundImage: `url(${iconCss})`,
     };
     return (
-        <div className={s.skillsBlock}>
+        <div id={"about"} className={s.skillsBlock}>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
                 <Title title={'My Stack & Skills'} titleBg={'about'}/>
 

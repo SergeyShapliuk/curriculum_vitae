@@ -1,23 +1,43 @@
 import React from "react";
 import s from './Nav.module.scss'
-import {NavLink} from "react-router-dom";
+import {Link, animateScroll as scroll} from "react-scroll";
 
 function Nav() {
     return (
-
         <div className={s.navBlock}>
             <div className={s.container}>
                 <div className={s.text}>
-                    <NavLink to={'/'} className={(navData) => navData.isActive ? s.active : "" }>Home</NavLink>
+                    <Link className={s.active}
+                          to="home"
+                          spy={true}
+                          smooth={true}
+                          offset={-200}
+                          duration={500}>Home</Link>
                 </div>
                 <div className={s.text}>
-                    <NavLink to={'/about'} className={(navData) => navData.isActive ? s.active : "" }>About</NavLink>
+                    <Link className={s.active}
+                          to="about"
+                          spy={true}
+                          smooth={true}
+                          offset={-30}
+                          duration={500}>About</Link>
                 </div>
                 <div className={s.text}>
-                    <NavLink to={'/portfolio'} className={(navData) => navData.isActive ? s.active : "" }>Portfolio</NavLink>
+                    <Link className={s.active}
+                          to="my_works"
+                          spy={true}
+                          smooth={true}
+                          offset={-30}
+                          duration={500}>Portfolio</Link>
                 </div>
                 <div className={s.text}>
-                    <NavLink to={'/contacts'} className={(navData) => navData.isActive ? s.active : "" }>contacts</NavLink>
+                    <Link className={s.active}
+                          to="contacts"
+                          spy={true}
+                          smooth={true}
+                          offset={-30}
+                          duration={500}>contacts</Link>
+
                 </div>
             </div>
         </div>

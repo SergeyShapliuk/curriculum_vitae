@@ -10,14 +10,14 @@ function NavSkills() {
 <div className={s.skillsBlock}>
         <div className={s.navSkillsBlock}>
             <div className={s.textExperience}>
-                <NavLink to={'/experience'} className={(navData) => navData.isActive ? s.active : "" } >Experience</NavLink>
+                <NavLink to={'/about/'} className={(navData) => navData.isActive ? s.active : "" } >Experience</NavLink>
             </div>
                 <div className={s.textEducation}>
-                    <NavLink to={'/educ'} className={(navData) => navData.isActive ? s.active : "" } >Education</NavLink>
+                    <NavLink  to={'/about/educ'} className={(navData) => navData.isActive ? s.active : "" }  >Education</NavLink>
                 </div>
 
                 <div className={s.textSkills}>
-                    <NavLink to={'/lines'} className={(navData) => navData.isActive ? s.active : "" }>Skills </NavLink>
+                    <NavLink to={'/about/lines'} className={(navData) => navData.isActive ? s.active : "" }>Skills </NavLink>
             </div>
         </div>
 
