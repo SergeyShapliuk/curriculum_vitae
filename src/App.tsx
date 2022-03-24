@@ -18,7 +18,7 @@ function App() {
             <Fade>
                 <Main/>
                 <Skills/>
-                {/*<HeaderSkills/>*/}
+                <HeaderSkills/>
                 <MyWorks/>
                 <Contacts/>
                 <Footer/>

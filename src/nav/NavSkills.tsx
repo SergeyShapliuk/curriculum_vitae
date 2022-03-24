@@ -10,7 +10,7 @@ function NavSkills() {
 <div className={s.skillsBlock}>
         <div className={s.navSkillsBlock}>
             <div className={s.textExperience}>
-                <NavLink to={'/about/'} className={(navData) => navData.isActive ? s.active : "" } >Experience</NavLink>
+                <NavLink to={'/about/experience'} className={(navData) => navData.isActive ? s.active : "" } >Experience</NavLink>
             </div>
                 <div className={s.textEducation}>
                     <NavLink  to={'/about/educ'} className={(navData) => navData.isActive ? s.active : "" }  >Education</NavLink>

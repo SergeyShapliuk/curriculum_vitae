@@ -2,12 +2,13 @@
 
 a{
   color: #cccccc;
+  text-decoration: none;
 }
 .skillsBlock {
   width: 100%;
 
   .navSkillsBlock {
-    width: 100%;
+    max-width: 100%;
     text-decoration: none;
     display: flex;
     justify-content: flex-start;
@@ -24,6 +25,7 @@ a{
       position: relative;
       margin-left: 80px;
 
+
       &::before{
         content: '';
         width: 50px;
@@ -36,6 +38,7 @@ a{
       }
     }
     .textSkills {
+
       margin-left: 80px;
     }
     .active{
@@ -47,6 +50,7 @@ a{
 
 .textExperience{
   position: relative;
+
 }
 .textExperience::before{
     content: '';

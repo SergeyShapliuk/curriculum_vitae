@@ -29,25 +29,19 @@ function Footer() {
     };
     return (
         <div className={s.footerBlock}>
+            <Bounce triggerOnce>
+                <FloatText/>
+            </Bounce>
             <div className={`${styleContainer.container} ${s.footerContainer}`}>
-               <Bounce triggerOnce>
-                   <FloatText/>
-               </Bounce>
-
                 <div className={s.items}>
                     <Item style={codeWars}/>
                     <Item style={gitHub}/>
                     <Item style={linkedin}/>
                     <Item style={telegram}/>
-
-
-                    {/*<FontAwesomeIcon icon={faLinkedin} className={s.linkedin}/>*/}
-                    {/*<FontAwesomeIcon icon={faGithubSquare} className={s.gitHub}/>*/}
-                    {/*<FontAwesomeIcon icon={faTelegram} className={s.telegram}/>*/}
-
                 </div>
-                <span><b>Copyright &copy; {new Date().getFullYear()}. All right reserved.</b></span>
+               <span><b>Copyright &copy; {new Date().getFullYear()}. All right reserved.</b></span>
             </div>
+
         </div>
     )
 }

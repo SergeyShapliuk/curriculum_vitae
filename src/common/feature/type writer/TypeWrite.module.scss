@@ -2,7 +2,6 @@
 .typeWrite {
   display: inline-flex;
 
-
 }
 
 .typeWrite h3 {
@@ -16,7 +15,10 @@
   //animation: typing 7.5s  steps(100, end) .1s 1 normal both,
   //blink-caret .7s infinite;
   //animation-iteration-count: infinite;
+  @media screen and (max-width: 576px){
+    font-size: 30px;
 
+  }
 
 
 
@@ -24,7 +26,12 @@
 }
 .typeWriteCursor{
   font-size: 39px;
+  @media screen and (max-width: 576px){
+    font-size: 32px;
+
+  }
 }
+
 //@keyframes typing {
 //  0% {
 //    width: 0;
