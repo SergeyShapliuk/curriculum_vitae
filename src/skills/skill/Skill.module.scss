@@ -2,30 +2,30 @@
 @import "../../common/styles/sass/variables";
 
 .skill {
-  width: 350px;
-  height: 100%;
+  max-width: 350px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  word-break: break-all;
-  text-indent: 10px;
-  transition: 1s;
-  z-index: 0;
   margin-top: 20px;
+  margin-bottom: 70px;
   background-color: white;
-
   @include box-shadow();
+  @media screen and(max-width: 700px) {
+    max-width: 270px;
+    margin-left: -93px;
+  }
+
   &:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    cursor: pointer;
+    //-webkit-transform: scale(1.1);
+    //-ms-transform: scale(1.1);
+    //transform: scale(1.1);
+    //cursor: pointer;
+    @media screen and(max-width: 850px) {
+      //transform: translate(-70px);
+      //cursor: pointer;
 
-    z-index: 3;
-
-
+    }
   }
 
   .icon {
@@ -56,10 +56,12 @@
     @include text($descriptionFontFamily, 14px, 1.6);
     font-weight: 400;
     padding: 20px;
+    text-indent: 10px;
     text-align: center;
-
+    word-break: normal;
 
   }
+
   @media screen and (max-width: 1129px) {
     width: 300px;
   }

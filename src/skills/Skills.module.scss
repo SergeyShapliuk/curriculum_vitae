@@ -2,41 +2,43 @@
 @import "../common/styles/sass/mixins";
 
 .skillsBlock {
-    min-height: 80vh;
-    padding: 30px;
+  max-width: 100%;
+  min-height: 80vh;
+  padding: 30px;
 
-@include backgroundLight();
+  @include backgroundLight();
 
 
 }
 
 .skillsContainer {
-    flex-direction: column;
-    justify-content: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
 
 
 }
-.titleBlock{
-    margin: 0 auto;
-    max-width: 100%;
-    position: relative;
+
+.titleBlock {
+  margin: 0 auto;
+  max-width: 100%;
+  position: relative;
 
 }
 
 
-.skills{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 30px;
-
+.skills {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
 
 
 }
-.zoomSkills{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 30px;
+
+.zoomSkills {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
 }
