@@ -29,16 +29,16 @@ function MyWorks() {
             <div className={`${styleContainer.container} ${s.myWorksContainer}`}>
                 <Title title={"My Projects"} titleBg={'portfolio'}/>
                 <div className={s.myWorks}>
-                    <Zoom>
+                    <Zoom cascade={true} damping={.01} className={s.zoomMyWorks}>
                     <MyWork style={socialNetwork} title={'Social Network'}
-                            description={'vksdvnlsfnwgergergergerge rgergregvlfsvnln'}
-                            href={''} />
+                            description={'Technologies: JavaScript, TypeScript, React, Redux, Redux-thunk, Redux-form, Axios, Reselect, SCSS. '}
+                            hrefDemo={''} hrefCode={'https://github.com/SergeyShapliuk/social_network'} />
                     <MyWork style={todolist} title={'Todo-List'}
-                            description={'vksdvnlsfnvrgregergreg lfsvnlndbfdbfbdfbdfbdfbdfbdfbdfbdfbdfbdfbdfbdfb'}
-                            href={''}/>
+                            description={'Technologies: JavaScript, TypeScript, React, Redux, Material UI, SCSS. '}
+                            hrefDemo={''} hrefCode={'https://github.com/SergeyShapliuk/todolist'}/>
                     <MyWork style={counter} title={'Counter'}
-                            description={'vksdvnlsfnvlfsvn ergregregerger ergergregergergerg ergrgln'}
-                            href={''}/>
+                            description={'Technologies: JavaScript, TypeScript, React, Redux. '}
+                            hrefDemo={''} hrefCode={'https://github.com/SergeyShapliuk/counter'}/>
                     </Zoom>
                 </div>
             </div>

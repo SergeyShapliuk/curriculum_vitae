@@ -2,36 +2,37 @@
 @import "../../common/styles/sass/variables";
 
 .skill {
-  max-width: 350px;
+  width: 350px;
   height: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 50%;
+  right: 50%;
+  transform: translate(-50%, 0%);
   margin-top: 20px;
   margin-bottom: 70px;
   background-color: white;
   @include box-shadow();
-  @media screen and(max-width: 700px) {
-    max-width: 270px;
-    margin-left: -93px;
-  }
 
   &:hover {
     //-webkit-transform: scale(1.1);
     //-ms-transform: scale(1.1);
     //transform: scale(1.1);
     //cursor: pointer;
-    @media screen and(max-width: 850px) {
-      //transform: translate(-70px);
-      //cursor: pointer;
+    //@media screen and(max-width: 850px) {
+    //transform: translate(-70px);
+    //cursor: pointer;
 
-    }
+    //}
   }
 
   .icon {
     width: 60px;
     height: 60px;
-    margin: 10px;
+    //margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -62,8 +63,15 @@
 
   }
 
-  @media screen and (max-width: 1129px) {
-    width: 300px;
+  @media screen and(max-width: 856px) {
+    width: 250px;
+    margin-left: 50%;
+    right: 50%;
+    transform: translate(-50%, 0%);
+    .description {
+      width: 100%;
+    }
+
   }
 }
 

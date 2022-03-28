@@ -1,19 +1,18 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import s from './MyWork.module.scss'
-import {faRotateRight} from "@fortawesome/free-solid-svg-icons/faRotateRight";
 
 
-function MyWork(props: any) {
+
+function MyWork({hrefDemo,hrefCode,...props}:any) {
 
     return (
         <div className={s.myWork}>
             <div className={s.imageContainer} style={props.style}>
-                <a href={props.href} className={s.viewButton}><FontAwesomeIcon icon={faRotateRight} /></a>
+                <a href={hrefDemo} target={"_blank"} className={s.viewButton}>view</a>
             </div>
             <div className={s.projectInfo}>
                 <h3 className={s.projectTitle}>{props.title}</h3>
-                <span className={s.description}>{props.description}</span>
+                <span className={s.description}>{props.description}<a href={hrefCode} target={"_blank"} style={{color:"black",fontWeight:"bold",textDecoration:"underline"}}>View code...</a></span>
             </div>
         </div>
     )

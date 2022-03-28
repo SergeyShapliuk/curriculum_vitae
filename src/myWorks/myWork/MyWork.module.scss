@@ -2,13 +2,11 @@
 
 .myWork {
   width: 350px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  word-break: break-all;
+  margin: 30px;
   text-indent: 10px;
   transition: 1s;
   z-index: 0;
@@ -53,7 +51,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 250px;
+      width: 320px;
       height: 180px;
       position: relative;
       opacity: 0.01;
@@ -88,12 +86,18 @@
 
     .description {
       @include text($descriptionFontFamily, 14px, 1.8);
+      max-height: 00px;
       font-weight: 400;
       padding: 20px;
 
 
 
     }
+  }
+  @media screen and (max-width:385px){
+    width: 250px;
+    height: 100%;
+
   }
 }
 

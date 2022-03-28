@@ -2,16 +2,18 @@
 @import "../common/styles/sass/mixins";
 
 .myWorksBlock {
+  max-width: 100%;
   min-height: 100vh;
   padding: 30px;
+
   @include backgroundLight();
 
   .myWorksContainer {
+    width: 100%;
     flex-direction: column;
     justify-content: flex-start;
-
     .myWorks {
-      width: 100%;
+      max-width: 100%;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
@@ -19,7 +21,12 @@
       align-items: flex-start;
       @media screen and (max-width: 1129px) {
         justify-content: center;
-
+.zoomMyWorks{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px;
+}
       }
     }
   }

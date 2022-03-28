@@ -1,4 +1,5 @@
 @import "common/styles/sass/mixins";
 .app{
+  overflow: hidden;
 @include backgroundDark()
 }

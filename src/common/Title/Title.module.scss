@@ -6,8 +6,11 @@
     text-transform: capitalize;
     font-size: 25px;
     line-height: 1.2;
+    display: flex;
+    justify-content: center;
     text-align: center;
     position: relative;
+    overflow: hidden;
     @include title();
 
     &::before {
@@ -38,8 +41,10 @@
     transform: translate(-50%,-50%);
     color: hsla(0,0%, 50%,.1);
     @media screen and (max-width: 576px) {
-        font-size: 50px;
+        font-size: 30px;
 
     }
 }
-
+.titleBlock{
+    width: 100%;
+}

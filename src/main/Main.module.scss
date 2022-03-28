@@ -4,22 +4,26 @@
 .mainBlock {
 
   min-height: 70vh;
-margin: 7%;
+  margin: 7%;
+
 
 }
-.particles{
+
+.particles {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   opacity: 0.2;
 }
-.mainContainer{
+
+.mainContainer {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 
 }
+
 .text {
   max-width: 400px;
   font-family: 'Poppins', sans-serif;
@@ -53,7 +57,8 @@ margin: 7%;
   position: relative;
   //box-shadow: 0 0 7px rgba(0, 0, 0, 90%);
 }
-.photo::before{
+
+.photo::before {
   position: absolute;
   content: "";
   width: 20px;
@@ -61,13 +66,14 @@ margin: 7%;
   background: hsla(54, 100%, 30%, 0.5);
   //border: 10px #bbb15c solid;
 }
-.photo::after{
+
+.photo::after {
   position: absolute;
   content: "";
   height: 150px;
   width: 20px;
   right: 0;
-  top:300px;
+  top: 300px;
   background: hsla(54, 100%, 30%, 0.5);
 }
 

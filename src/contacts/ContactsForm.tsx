@@ -1,6 +1,7 @@
 import React from 'react';
 import {useFormik} from "formik";
 import axios from "axios";
+import s from "./ContactsForm.module.scss"
 
 type FormValuesType = {
     email?: string
@@ -42,27 +43,35 @@ debugger
         }
     })
     return (
-        <div>
+        <div className={s.contactsForm}>
             <form onSubmit={formik.handleSubmit}>
+
                 <input type="email"
                        placeholder={'Your email'}
                        {...formik.getFieldProps("email")}/>
                 {formik.touched.email && formik.errors.email ?
+
                     <div style={{color: "orange"}}>{formik.errors.email}</div> : null}
-                <input type="text"
-                       placeholder={' Your name'}
+
+
+                    <input type="text"
+                       placeholder={'Your name'}
                        {...formik.getFieldProps("name")}/>
                 {formik.touched.name && formik.errors.name ?
                     <div style={{color: "orange"}}>{formik.errors.name}</div> : null}
+
+
                 <input type="textarea"
                        placeholder={"Your message"}
                        {...formik.getFieldProps("message")}/>
                 {formik.touched.message && formik.errors.message ?
                     <div style={{color: "orange"}}>{formik.errors.message}</div> : null}
-                <button type="submit">
+
+                    <button type="submit">
                     Send
                 </button>
             </form>
+
         </div>
     )
 }
