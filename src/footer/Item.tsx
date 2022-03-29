@@ -6,8 +6,9 @@ function Item(props: any) {
 
     return (
         <div className={s.itemsBlock}>
-            <div className={s.icon} style={props.style} >
-            </div>
+
+                <a href={props.hrefSocial} target={"_blank"}><div className={s.icon} style={props.style}>  </div></a>
+
         </div>
     )
 }

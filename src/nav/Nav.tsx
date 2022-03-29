@@ -7,36 +7,36 @@ function Nav() {
         <div className={s.navBlock}>
             <div className={s.container}>
                 <div className={s.text}>
-                    <Link className={s.active}
+                    <Link activeClass={s.active}
                           to="home"
                           spy={true}
                           smooth={true}
                           offset={-200}
-                          duration={500}>Home</Link>
+                          duration={1000}>Home</Link>
                 </div>
                 <div className={s.text}>
-                    <Link className={s.active}
+                    <Link activeClass={s.active}
                           to="about"
                           spy={true}
                           smooth={true}
                           offset={-30}
-                          duration={500}>About</Link>
+                          duration={1000}>About</Link>
                 </div>
                 <div className={s.text}>
-                    <Link className={s.active}
+                    <Link activeClass={s.active}
                           to="my_works"
                           spy={true}
                           smooth={true}
                           offset={-30}
-                          duration={500}>Portfolio</Link>
+                          duration={1000}>Portfolio</Link>
                 </div>
                 <div className={s.text}>
-                    <Link className={s.active}
+                    <Link activeClass={s.active}
                           to="contacts"
                           spy={true}
                           smooth={true}
                           offset={-30}
-                          duration={500}>contacts</Link>
+                          duration={1000}>contacts</Link>
 
                 </div>
             </div>

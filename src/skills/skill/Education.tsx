@@ -18,13 +18,31 @@ function Education() {
                         <h3>Frontend Developer - (JS,TypeScript,React)</h3>
 
                         <span>Online it-school. Belarus. Minsk</span>
+                    <p>I studied the following technologies:
+                       <ul>
+                           <li>REACT</li>
+                           <li>TYPESCRIPT</li>
+                           <li>JAVASCRIPT</li>
+                           <li>HTML & CSS & SASS</li>
+                           <li>REDUX & REDUX-TOOLKIT</li>
+                           <li>AXIOS</li>
+                           <li>REST API</li>
+                           <li>ANT DESIGN</li>
+                           <li>MATERIAL-UI</li>
+                           <li>UNIT TESTS & JEST</li>
+                           <li>STORYBOOK  POSTMAN</li>
+                       </ul>
 
 
-                        <p>I`m a freelance creative designer with a love for minimal design,
-                            clean typography and well-written code.
-                            Provide high quality and cost effective offshore web and software development services.
-                            Wide range of web and software development services across the world.</p>
 
+
+
+
+
+
+
+
+                       </p>
 
                 </div>
             </div>

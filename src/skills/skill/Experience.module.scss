@@ -2,14 +2,10 @@
 .educBlock{
   min-height: 80vh;
   padding: 30px;
-
-
 }
 .educContainer{
   display: flex;
   justify-content: space-between;
-
-
 }
 .text{
   max-width: 800px;
@@ -20,14 +16,12 @@
   @media screen and(max-width: 800px) {
     width: 300px;
     margin: 10px auto;
-
   }
-
-
 }
 
 .text span{
-  color: $primaryColor;
+  color: white;
+  opacity: .8;
 }
 .text h4{
   width: 100px;
@@ -51,8 +45,6 @@
   background-color: $primaryColor;
   position: absolute;
   margin-left: -5px;
-
-
 }
 .icon::before{
   content: "";

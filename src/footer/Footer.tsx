@@ -34,10 +34,10 @@ function Footer() {
             </Bounce>
             <div className={`${styleContainer.container} ${s.footerContainer}`}>
                 <div className={s.items}>
-                    <Item style={codeWars}/>
-                    <Item style={gitHub}/>
-                    <Item style={linkedin}/>
-                    <Item style={telegram}/>
+                    <Item style={codeWars} hrefSocial={"https://www.codewars.com/users/Sergyo"}/>
+                    <Item style={gitHub}  hrefSocial={"https://github.com/SergeyShapliuk"}/>
+                    <Item style={linkedin}  hrefSocial={"https://www.linkedin.com/in/siarhei-shapliuk-614764210/"}/>
+                    <Item style={telegram}  hrefSocial={"https://t.me/SergeShapliuk"}/>
                 </div>
                <span><b>Copyright &copy; {new Date().getFullYear()}. All right reserved.</b></span>
             </div>

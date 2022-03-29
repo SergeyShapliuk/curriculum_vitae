@@ -2,6 +2,7 @@ import React from 'react';
 import {useFormik} from "formik";
 import axios from "axios";
 import s from "./ContactsForm.module.scss"
+import Popup from "../common/feature/popup/Popup";
 
 type FormValuesType = {
     email?: string
@@ -20,7 +21,7 @@ const ContactsForm = () => {
             if (!values.email) {
                 errors.email = 'Required';
             } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)) {
-                errors.email = 'Invalid email address';
+                errors.email = 'Invalid email address. Enter the correct email';
             }
             if (!values.name) {
                 errors.name = 'Name required';
@@ -45,27 +46,26 @@ debugger
     return (
         <div className={s.contactsForm}>
             <form onSubmit={formik.handleSubmit}>
-
+                {formik.touched.email && formik.errors.email ?
+                    <div><Popup error={formik.errors.email}/></div>:!formik.touched.email}
                 <input type="email"
+                       id={"email"}
                        placeholder={'Your email'}
                        {...formik.getFieldProps("email")}/>
-                {formik.touched.email && formik.errors.email ?
-
-                    <div style={{color: "orange"}}>{formik.errors.email}</div> : null}
 
 
+                {formik.touched.name && formik.errors.name ?
+                    <div><Popup error={formik.errors.name}/></div>: null}
                     <input type="text"
                        placeholder={'Your name'}
                        {...formik.getFieldProps("name")}/>
-                {formik.touched.name && formik.errors.name ?
-                    <div style={{color: "orange"}}>{formik.errors.name}</div> : null}
 
 
-                <input type="textarea"
+                {formik.touched.message && formik.errors.message ?
+                    <div><Popup error={formik.errors.message}/></div>: null}
+                <textarea
                        placeholder={"Your message"}
                        {...formik.getFieldProps("message")}/>
-                {formik.touched.message && formik.errors.message ?
-                    <div style={{color: "orange"}}>{formik.errors.message}</div> : null}
 
                     <button type="submit">
                     Send

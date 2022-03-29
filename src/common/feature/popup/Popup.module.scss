@@ -1,0 +1,29 @@
+.customInfo {
+  font-family: Calibri, Tahoma, Geneva, sans-serif;
+  position: sticky;
+  //left: 7em;
+  //top: 0;
+  //z-index: 99;
+
+  //margin-top: 10px;
+ // margin-left: 0;
+ // margin-left: 50%;
+ // right: 50%;
+ // transform: translate(-50%, 0%);
+  max-width: 250px;
+  height: auto;
+  //padding: 0.5em 0.8em 0.8em 2em;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #a19e70;
+
+
+
+}
+
+.customInfo img {
+  border: 0;
+  margin: -10px 0 0 -47px;
+  float: left;
+  position: absolute;
+}

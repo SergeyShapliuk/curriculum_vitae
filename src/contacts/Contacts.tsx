@@ -10,6 +10,7 @@ import ContactsForm from "./ContactsForm";
 
 
 
+
 function Contacts() {
 
     return (
@@ -24,15 +25,9 @@ function Contacts() {
                         <li><FontAwesomeIcon icon={faGlobe} className={s.icon}/><span> Belarus,Minsk</span></li>
                     </ul>
                 </div>
-                {/*<div className={s.contactForm}>*/}
-                    {/*<input type={"text"} id={"name"} name={"name"} placeholder={' Your name'}/>*/}
-                    {/*<input type={"text"} name={"email"} placeholder={' Your email'}/><br/>*/}
-                    {/*<textarea name={"message"} placeholder={' Your message'}/><br/>*/}
-                    {/*<button>Send</button>*/}
-
-                {/*</div>*/}
             </div>
             <ContactsForm/>
+
 
         </div>
     )
