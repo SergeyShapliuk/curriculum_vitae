@@ -1,7 +1,7 @@
 import React from "react";
 import s from './Footer.module.scss'
 import styleContainer from "../common/styles/Container.module.scss";
-import FloatText from "../common/feature/button hire me/FloatText";
+import FloatText from "../common/feature/button/button hire me/FloatText";
 import iconCodeWars from "../assets/image/icon-codewars.png";
 import iconGitHub from "../assets/image/icon-github.png";
 import iconLinkedin from "../assets/image/iconLinkedin.png";

@@ -1,7 +1,7 @@
 @import "../../common/styles/sass/variables";
 .educBlock{
   min-height: 80vh;
-  padding: 30px;
+  padding-top: 30px;
 
 
 }
@@ -12,17 +12,14 @@
 
 }
 .text{
-  max-width: 800px;
+  max-width: 80%;
   color: white;
-  padding: 10px;
-  margin: 60px auto;
+  padding: 20px;
+  //margin: 60px auto;
   position: relative;
-  @media screen and(max-width: 800px) {
-    width: 300px;
-    margin: 10px auto;
-
-  }
-
+  margin-left: 50%;
+  //right: 50%;
+  transform: translate(-50%, 0%);
 }
 
 .text span{
