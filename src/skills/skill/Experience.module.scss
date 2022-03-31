@@ -1,69 +1,62 @@
 @import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
 
 .educBlock {
   min-height: 80vh;
   padding-top: 30px;
+
+  .educContainer {
+    display: flex;
+    justify-content: space-between;
+
+    .text {
+      max-width: 80%;
+      color: white;
+      padding: 10px;
+      position: relative;
+      margin-left: 50%;
+      transform: translate(-50%, 0%);
+
+      .icon {
+        @include icon();
+
+        &::before {
+          content: "";
+          position: absolute;
+          right: 0;
+          top: 100%;
+          left: 40%;
+          transform: translate(50%, 0%);
+          height: 320px;
+          width: 2px;
+          background: #545050;
+          z-index: -1;
+        }
+      }
+
+      & h4 {
+        width: 100px;
+        height: 23px;
+        text-align: center;
+        background-color: $primaryColor;
+      }
+
+      & p {
+        opacity: 0.8;
+      }
+
+      & span {
+        color: white;
+        opacity: .8;
+      }
+    }
+  }
 }
 
-.educContainer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.text {
-  max-width: 80%;
-  color: white;
-  padding: 10px;
-  //margin: 60px auto;
-  position: relative;
-  margin-left: 50%;
-  //right: 50%;
-  transform: translate(-50%, 0%);
-}
-
-.text span {
-  color: white;
-  opacity: .8;
-}
-
-.text h4 {
-  width: 100px;
-  height: 23px;
-  text-align: center;
-  background-color: $primaryColor;
-
-}
-
-.text p {
-  opacity: 0.8;
-}
-
-.icon {
-  width: 30px;
-  height: 30px;
-  left: -15%;
-  transform: translate(50%, 60%);
-  line-height: 30px;
-  text-align: center;
-  border-radius: 50%;
-  color: #fff;
-  background-color: $primaryColor;
-  position: absolute;
-  margin-left: -5px;
-}
-
-.icon::before {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 100%;
-  left: 40%;
-  transform: translate(50%, 0%);
-  height: 320px;
-  width: 2px;
-  background: #545050;
-  z-index: -1;
 
 
-}
+
+
+
+
 

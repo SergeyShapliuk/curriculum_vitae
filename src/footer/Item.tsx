@@ -7,7 +7,9 @@ function Item(props: any) {
     return (
         <div className={s.itemsBlock}>
 
-                <a href={props.hrefSocial} target={"_blank"}><div className={s.icon} style={props.style}>   </div></a>
+            <a href={props.hrefSocial} target={"_blank"}>
+                <div className={s.icon} style={props.style}></div>
+            </a>
 
         </div>
     )

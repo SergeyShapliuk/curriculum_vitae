@@ -38,7 +38,7 @@ const ContactsForm = () => {
         onSubmit: async (values: FormValuesType) => {
             formik.resetForm()
             await axios.post("https://server-smtp-node-js.herokuapp.com/sendMessage", values
-            ).then(res => alert("Your message has been send"))
+            ).then(res => alert("Thanks. Your message has been send. Have a nice day!"))
                 .catch(err => alert("Error"))
         }
     })

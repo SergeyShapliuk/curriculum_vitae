@@ -12,6 +12,7 @@
     width: 100%;
     flex-direction: column;
     justify-content: flex-start;
+
     .myWorks {
       max-width: 100%;
       display: flex;
@@ -21,12 +22,13 @@
       align-items: flex-start;
       @media screen and (max-width: 1129px) {
         justify-content: center;
-.zoomMyWorks{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 10px;
-}
+
+        .zoomMyWorks {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          margin: 10px;
+        }
       }
     }
   }

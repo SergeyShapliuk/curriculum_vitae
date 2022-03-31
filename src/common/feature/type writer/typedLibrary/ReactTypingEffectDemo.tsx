@@ -9,6 +9,7 @@ function ReactTypingEffectDemo (){
     return (
         <div className={s.typeWrite}>
             <ReactTypingEffect
+                className={s.s}
                 text={["Frontend Develope", "Freelance"]}
                 cursor={"R"}
                 cursorClassName={s.typeWriteCursor}

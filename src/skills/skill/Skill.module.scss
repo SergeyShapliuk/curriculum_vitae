@@ -15,18 +15,6 @@
   background-color: white;
   @include box-shadow();
 
-  &:hover {
-    //-webkit-transform: scale(1.1);
-    //-ms-transform: scale(1.1);
-    //transform: scale(1.1);
-    //cursor: pointer;
-    //@media screen and(max-width: 850px) {
-    //transform: translate(-70px);
-    //cursor: pointer;
-
-    //}
-  }
-
   .icon {
     width: 60px;
     height: 60px;
@@ -43,14 +31,12 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
   }
 
   .skillTitle {
     @include text($titleFontFamily, 16px, 1.2);
     letter-spacing: 1px;
     margin: 0 0 5px;
-
   }
 
   .description {
@@ -60,7 +46,6 @@
     text-indent: 10px;
     text-align: center;
     word-break: normal;
-
   }
 
   @media screen and(max-width: 856px) {
@@ -71,7 +56,6 @@
     .description {
       width: 100%;
     }
-
   }
 }
 

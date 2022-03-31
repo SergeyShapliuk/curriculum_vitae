@@ -1,172 +1,126 @@
 @import "../common/styles/sass/variables";
-.contactsForm {
 
+.contactsForm {
   display: flex;
   justify-content: center;
   margin-top: 30px;
   box-sizing: border-box;
-}
 
-.contactsForm form {
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 30px;
-}
+  & form {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
 
-.contactsForm input[type=email]:focus::placeholder, input[type=text]:focus::placeholder {
-  display: block; /* Блочный элемент */
-  color: #aaa; /* Цвет подсказки */
-  transform: translateY(-1.5rem); /* Сдвигаем вверх */
-  line-height: 1rem; /* Межстрочный интервал */
-  transition: 0.5s; /* Время трансформации */
-
-}
-
-//.contactsForm input[type=email]:focus + label,
-//input[type=email]:valid + label{
-//  font-size: 10px; /* Размер шрифта */
-//  transform: translateY(-2.5rem); /* Сдвигаем вверх */
-//}
-.contactsForm input[type=email], input[type=text] {
-  font-family: 'Open Sans', sans-serif;
-  min-width: 100%;
-  height: 50px;
-  padding: 10px;
-  margin: 20px;
-  color: white;
-  font-size: large;
-  border: 1px #696565 solid;
-  background-color: #1c1b1b;
-}
-
-.contactsForm textarea::placeholder {
-  font-size: large;
-  transition: 0.5s; /* Время трансформации */
-
-}
-
-.contactsForm textarea {
-  font-family: 'Open Sans', sans-serif;
-  min-width: 100%;
-  color: white;
-  background-color: #1c1b1b;
-  font-size: large;
-  height: 100px;
-  margin: 10px;
-  padding: 10px;
-
-}
-
-.contactsForm button {
-
-  min-width: 50%;
-  height: 50px;
-  border: 1px #696565 solid;
-  outline: none;
-  color: $primaryColor;
-  font-size: large;
-  background: #111;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 10px;
-  margin: 30px;
-  &:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-  }
-
-  &:active {
-    color: #000
-  }
-
-  &:active:after {
-    background: transparent;
-  }
-
-  &:hover:before {
-    opacity: 1;
-  }
-
-  &:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #1c1b1b;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-  }
-
-  @keyframes glowing {
-    0% {
-      background-position: 0 0;
+    & input[type=email], input[type=text] {
+      font-family: 'Open Sans', sans-serif;
+      min-width: 100%;
+      height: 50px;
+      padding: 10px;
+      margin: 20px;
+      color: white;
+      font-size: large;
+      border: 1px #696565 solid;
+      background-color: #1c1b1b;
     }
-    50% {
-      background-position: 400% 0;
+
+    & input[type=email]:focus::placeholder, input[type=text]:focus::placeholder {
+      display: block; /* Блочный элемент */
+      color: #aaa; /* Цвет подсказки */
+      transform: translateY(-1.5rem); /* Сдвигаем вверх */
+      line-height: 1rem; /* Межстрочный интервал */
+      transition: 0.5s; /* Время трансформации */
+
     }
-    100% {
-      background-position: 0 0;
+
+    & textarea {
+      font-family: 'Open Sans', sans-serif;
+      min-width: 100%;
+      color: white;
+      background-color: #1c1b1b;
+      font-size: large;
+      height: 100px;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    & textarea::placeholder {
+      font-size: large;
+      transition: 0.5s; /* Время трансформации */
+    }
+
+    & button {
+      min-width: 50%;
+      height: 50px;
+      border: 1px #696565 solid;
+      outline: none;
+      color: $primaryColor;
+      font-size: x-large;
+      background: #111;
+      cursor: pointer;
+      position: relative;
+      z-index: 0;
+      border-radius: 10px;
+      margin: 30px;
+
+      &:before {
+        content: '';
+        background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        background-size: 400%;
+        z-index: -1;
+        filter: blur(5px);
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        animation: glowing 20s linear infinite;
+        opacity: 0;
+        transition: opacity .3s ease-in-out;
+        border-radius: 10px;
+      }
+
+      &:active {
+        color: #000
+      }
+
+      &:active:after {
+        background: transparent;
+      }
+
+      &:hover:before {
+        opacity: 1;
+      }
+
+      &:after {
+        z-index: -1;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #1c1b1b;
+        left: 0;
+        top: 0;
+        border-radius: 10px;
+      }
+
+      @keyframes glowing {
+        0% {
+          background-position: 0 0;
+        }
+        50% {
+          background-position: 400% 0;
+        }
+        100% {
+          background-position: 0 0;
+        }
+      }
     }
   }
-
-
 }
 
-//.contactsForm button {
-//
-//  border-radius: 4px;
-//  background-color: #bbb15c;
-//  border: none;
-//  color: #fff;
-//  text-align: center;
-//  font-size: 25px;
-//  padding: 10px;
-//  width: 220px;
-//  height: 60px;
-//  transition: all 0.5s;
-//  cursor: pointer;
-//  margin: 30px;
-//
-//  position: relative;
-//  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
-//}
 
-//
-////.contactForm button:after {
-////  content: '»';
-////  position: absolute;
-////  opacity: 0;
-////  top: 8px;
-////  right: -10px;
-////  transition: 0.5s;
-////}
-////
-////.contactForm button:hover {
-////  padding-right: 24px;
-////  padding-left: 8px;
-////}
-////
-////.contactForm button:hover:after {
-////  opacity: 1;
-////  right: 10px;
-////}
-////
-//
+
+

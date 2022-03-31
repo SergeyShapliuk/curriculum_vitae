@@ -31,3 +31,16 @@
   radial-gradient(at 50% 0,#f5f5f5,#e6e6e6);
   background-size: 0.375em 0.375em, 0.375em 0.375em, 100% 100%;
 }
+@mixin icon(){
+  width: 30px;
+  height: 30px;
+  left: -15%;
+  transform: translate(50%,60%);
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background-color: $primaryColor;
+  position: absolute;
+  margin-left: -5px;
+}

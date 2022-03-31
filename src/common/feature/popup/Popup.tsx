@@ -9,9 +9,9 @@ function Popup(props: any) {
     return (
         <>
 
-          <span className={s.customInfo}>
+          <div className={s.customInfo}>
             <img src={infoImage} alt={"Information"} height={"48"} width={"48"}/><b><em>Information: </em></b>
-                    {props.error}</span>
+                    {props.error}</div>
 
         </>
     )

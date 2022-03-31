@@ -9,8 +9,6 @@ import {faGlobe} from "@fortawesome/free-solid-svg-icons/faGlobe";
 import ContactsForm from "./ContactsForm";
 
 
-
-
 function Contacts() {
 
     return (
@@ -27,8 +25,6 @@ function Contacts() {
                 </div>
             </div>
             <ContactsForm/>
-
-
         </div>
     )
 }

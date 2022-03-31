@@ -9,7 +9,6 @@ import Title from "../common/Title/Title";
 import {Zoom} from "react-awesome-reveal";
 
 
-
 function MyWorks() {
     const todolist = {
         color: 'blue',
@@ -30,15 +29,15 @@ function MyWorks() {
                 <Title title={"My Projects"} titleBg={'portfolio'}/>
                 <div className={s.myWorks}>
                     <Zoom cascade={true} damping={.01} className={s.zoomMyWorks}>
-                    <MyWork style={socialNetwork} title={'Social Network'}
-                            description={'Technologies: JavaScript, TypeScript, React, Redux, Redux-thunk, Redux-form, Axios, Reselect, SCSS. '}
-                            hrefDemo={''} hrefCode={'https://github.com/SergeyShapliuk/social_network'} />
-                    <MyWork style={todolist} title={'Todo-List'}
-                            description={'Technologies: JavaScript, TypeScript, React, Redux, Material UI, SCSS. '}
-                            hrefDemo={''} hrefCode={'https://github.com/SergeyShapliuk/todolist'}/>
-                    <MyWork style={counter} title={'Counter'}
-                            description={'Technologies: JavaScript, TypeScript, React, Redux. '}
-                            hrefDemo={''} hrefCode={'https://github.com/SergeyShapliuk/counter'}/>
+                        <MyWork style={socialNetwork} title={'Social Network'}
+                                description={'Technologies: JavaScript, TypeScript, React, Redux, Redux-thunk, Redux-form, Axios, Reselect, SCSS. '}
+                                hrefDemo={'https://social-network-incubator.herokuapp.com'} hrefCode={'https://github.com/SergeyShapliuk/social_network'}/>
+                        <MyWork style={todolist} title={'Todo-List'}
+                                description={'Technologies: JavaScript, TypeScript, React, Redux, Material UI, SCSS. '}
+                                hrefDemo={'https://todolist-pet-project.herokuapp.com'} hrefCode={'https://github.com/SergeyShapliuk/todolist'}/>
+                        <MyWork style={counter} title={'Counter'}
+                                description={'Technologies: JavaScript, TypeScript, React, Redux. '}
+                                hrefDemo={' https://counter-pet-project.herokuapp.com'} hrefCode={'https://github.com/SergeyShapliuk/counter'}/>
                     </Zoom>
                 </div>
             </div>

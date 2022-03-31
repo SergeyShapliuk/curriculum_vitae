@@ -2,7 +2,6 @@ import React from "react";
 import s from './Skill.module.scss'
 
 
-
 function Skill(props: any) {
 
     return (

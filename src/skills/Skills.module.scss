@@ -5,34 +5,17 @@
 
   min-height: 80vh;
   @include backgroundLight();
-}
-.skillsContainer {
-  width: 100%;
-  flex-direction: column;
-  justify-content: flex-start;
 
-}
+  .skillsContainer {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
 
-//.skills {
-//  max-width: 80%;
-//  margin-top: 30px;
-//  margin-bottom: 30px;
-//  background-color: #4d96da;
-//  //display: flex;
-//  //justify-content: center;
-//
-//
-//}
-.swiper{
- width:100%;
-  margin-top: 30px;
-  margin-bottom: 30px;
-
+    .swiper {
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
 }
 
-.zoomSkills {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 30px;
-}
