@@ -29,7 +29,7 @@ function Footer() {
     };
     return (
         <div className={s.footerBlock}>
-            <Bounce triggerOnce>
+            <Bounce triggerOnce delay={500}>
                 <FloatText/>
             </Bounce>
             <div className={`${styleContainer.container} ${s.footerContainer}`}>

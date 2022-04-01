@@ -7,7 +7,6 @@ import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footer";
 import HeaderSkills from "./header/HeaderSkills";
 import {Fade} from "react-awesome-reveal";
-import Nav from "./nav/Nav";
 import Header from "./header/Header";
 
 
@@ -22,7 +21,6 @@ function App() {
                 <MyWorks/>
                 <Contacts/>
                 <Footer/>
-
             </Fade>
         </div>
     );

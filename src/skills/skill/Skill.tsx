@@ -5,7 +5,7 @@ import s from './Skill.module.scss'
 function Skill(props: any) {
 
     return (
-        <div className={s.skill}>
+        <div id={"lines"} className={s.skill}>
             <div className={s.icon} style={props.style}>
             </div>
             <h3 className={s.skillTitle}>{props.title}</h3>

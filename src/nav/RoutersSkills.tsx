@@ -10,11 +10,11 @@ function RoutersSkills(){
     return(
         <div>
           <Routes>
-              <Route path={'/about/experience'} element={<Experience/>}/>
-              <Route path={'/about/educ'} element={<Education/>}/>
-              <Route path={'/about/lines'} element={<SkillItem/>}/>
+              <Route path={'/'} element={<Experience/>}/>
+              <Route path={'/educ'} element={<Education/>}/>
+              <Route path={'/lines'} element={<SkillItem/>}/>
 
-              <Route path={'*'} element={<Navigate to={'/about/experience'}/>}/>
+              <Route path={'*'} element={<Navigate to={'/'}/>}/>
           </Routes>
 
 

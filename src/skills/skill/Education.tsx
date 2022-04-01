@@ -7,7 +7,7 @@ import {faRocket} from "@fortawesome/free-solid-svg-icons/faRocket";
 
 function Education() {
     return (
-        <div className={s.educBlock}>
+        <div id={"educ"} className={s.educBlock}>
             <div className={`${styleContainer.container} ${s.educContainer}`}>
                 <div className={s.text}>
                     <div className={s.icon}>

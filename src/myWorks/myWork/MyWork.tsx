@@ -7,7 +7,7 @@ function MyWork({hrefDemo, hrefCode, ...props}: any) {
     return (
         <div className={s.myWork}>
             <div className={s.imageContainer} style={props.style}>
-                <a href={hrefDemo} target={"_blank"} title={"Used by Heroku"} className={s.viewButton}>Click to view</a>
+                <a href={hrefDemo} target={"_blank"} title={"Hosted by Heroku."} onClick={()=>alert("May be waiting for download")} className={s.viewButton}>Click to view</a>
             </div>
             <div className={s.projectInfo}>
                 <h3 className={s.projectTitle}>{props.title}</h3>

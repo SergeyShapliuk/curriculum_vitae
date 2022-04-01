@@ -9,7 +9,7 @@ import ButtonWithGradient from "../../common/feature/button/ButtonWithGradient";
 function Experience() {
 
     return (
-        <div className={s.educBlock}>
+        <div id={"experience"} className={s.educBlock}>
             <div className={`${styleContainer.container} ${s.educContainer}`}>
                 <div className={s.text}>
                     <div className={s.icon}>
