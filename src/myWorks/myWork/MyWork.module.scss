@@ -14,11 +14,11 @@
   @include box-shadow();
 
   &:hover {
-    //-webkit-transform: scale(1.1);
-    //-ms-transform: scale(1.1);
-    //transform: scale(1.1);
-    //z-index: 3;
-    //box-shadow: 2px 2px 3px;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 3;
+    box-shadow: 2px 2px 3px;
   }
 
   .imageContainer {
@@ -78,7 +78,6 @@
 
     .projectTitle {
       @include text($titleFontFamily, 16px, 1.2);
-
       letter-spacing: 1px;
       margin: 0 0 5px;
 
@@ -86,9 +85,9 @@
 
     .description {
       @include text($descriptionFontFamily, 14px, 1.8);
-      max-height: 00px;
       font-weight: 400;
       padding: 20px;
+
     }
   }
 
@@ -98,10 +97,6 @@
 
   }
 }
-
-
-
-
 
 
 
