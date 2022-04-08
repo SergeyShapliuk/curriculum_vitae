@@ -36,10 +36,10 @@ function MyWorks() {
                     <Zoom cascade={true} damping={.01} className={s.zoomMyWorks}>
                         <MyWork style={socialNetwork} title={'Social Network'}
                                 description={'Used technologies:  JavaScript, TypeScript, React, Redux, Redux-thunk, Redux-form, Axios, Reselect. '}
-                                hrefDemo={'https://social-network-incubator.herokuapp.com'} hrefCode={'https://github.com/SergeyShapliuk/social_network'}/>
+                                hrefDemo={' https://sergeyshapliuk.github.io/social_network/'} hrefCode={'https://github.com/SergeyShapliuk/social_network'}/>
                         <MyWork style={todolist} title={'Todo-List'}
                                 description={'Used technologies:  JavaScript, TypeScript, React, Redux, Material UI, SCSS. '}
-                                hrefDemo={'https://todolist-pet-project.herokuapp.com'} hrefCode={'https://github.com/SergeyShapliuk/todolist'}/>
+                                hrefDemo={'https://sergeyshapliuk.github.io/it-incubator-todolist-ts-start/'} hrefCode={'https://github.com/SergeyShapliuk/it-incubator-todolist-ts'}/>
                         <MyWork style={counter} title={'Counter'}
                                 description={'Used technologies: JavaScript, TypeScript, React, Redux. '}
                                 hrefDemo={' https://counter-pet-project.herokuapp.com'} hrefCode={'https://github.com/SergeyShapliuk/counter'}/>
