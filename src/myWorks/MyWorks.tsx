@@ -45,7 +45,7 @@ function MyWorks() {
                                 hrefDemo={' https://counter-pet-project.herokuapp.com'} hrefCode={'https://github.com/SergeyShapliuk/counter'}/>
                         <MyWork style={cards} title={'Cards app'}
                                 description={'Technologies: React, Redux, React-router domV6, Redux-thunk, Axios, Formik, Material UI. Creating learning app in team with using git, work with axios(CRUD). '}
-                                hrefDemo={' https://team--project.herokuapp.com'} hrefCode={'https://github.com/SergeyShapliuk/TeamProject'}/>
+                                hrefDemo={' https://sergeyshapliuk.github.io/team-project/'} hrefCode={'https://github.com/SergeyShapliuk/team-project'}/>
                     </Zoom>
                 </div>
             </div>
