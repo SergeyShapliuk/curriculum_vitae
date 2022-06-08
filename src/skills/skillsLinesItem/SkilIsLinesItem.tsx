@@ -32,6 +32,9 @@ function SkillItem() {
                     <li>
                         <h3>CSS - 74%</h3><span className={s.bar}><span className={s.css}></span></span>
                     </li>
+                    <li>
+                        <h3>GraphQL - 65%</h3><span className={s.bar}><span className={s.graphql}></span></span>
+                    </li>
                 </div>
             </div>
         </div>

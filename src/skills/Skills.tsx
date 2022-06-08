@@ -11,6 +11,7 @@ import iconGit from "../assets/image/iconGit.png";
 import iconAxios from "../assets/image/iconAxios.png";
 import iconHtml from "../assets/image/iconHtml.png";
 import iconCss from "../assets/image/iconCss.png";
+import iconGraphql from "../assets/image/graphql_logo.png";
 import {EffectCoverflow, Navigation, Pagination} from "swiper";
 import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/scss';
@@ -52,6 +53,10 @@ function Skills() {
         color: 'blue',
         backgroundImage: `url(${iconCss})`,
     };
+    const graphql = {
+        color: 'blue',
+        backgroundImage: `url(${iconGraphql})`,
+    };
 
     return (
         <div id={"about"} className={s.skillsBlock}>
@@ -91,6 +96,8 @@ function Skills() {
                                         description={'HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and last major HTML version that is a World Wide Web Consortium (W3C) recommendation. The current specification is known as the HTML Living Standard. It is maintained (WHATWG), a consortium of the major browser vendors (Apple, Google, Mozilla, and Microsoft).'}/></SwiperSlide>
                     <SwiperSlide><Skill style={css} title={'CSS'}
                                         description={'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.'}/></SwiperSlide>
+                    <SwiperSlide><Skill style={graphql} title={'GraphQL'}
+                                        description={'GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data.GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015. On 7 November 2018, the GraphQL project was moved from Facebook to the newly established GraphQL Foundation, hosted by the non-profit Linux Foundation.'}/></SwiperSlide>
                 </Swiper>
             </div>
         </div>

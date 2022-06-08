@@ -6,7 +6,7 @@ import todolistImage from '../assets/image/todolistImage.jpg'
 import socialNetImage from '../assets/image/socialNetworkImage.jpg'
 import counterImage from '../assets/image/image-for-min.png'
 import cardsImage from '../assets/image/cardsImage.jpg'
-import shopImage from '../assets/image/imageScreen.png'
+import shopImage from '../assets/image/collageImage.png'
 import Title from "../common/Title/Title";
 import {Zoom} from "react-awesome-reveal";
 
@@ -52,12 +52,12 @@ function MyWorks() {
                                 hrefDemo={' https://counter-pet-project.herokuapp.com'}
                                 hrefCode={'https://github.com/SergeyShapliuk/counter'}/>
                         <MyWork style={cards} title={'Cards app'}
-                                description={'Technologies: React, Redux, React-router domV6, Redux-thunk, Axios, Formik, Material UI. Creating learning app in team with using git, work with axios(CRUD).'}
+                                description={'Technologies: React, Redux, React-router domV6, Redux-thunk, Axios, Formik, Material UI. Creating learning app in team with using git, work with axios(CRUD). '}
                                 hrefDemo={' https://sergeyshapliuk.github.io/team-project/'}
                                 hrefCode={'https://github.com/SergeyShapliuk/team-project'}/>
                         <MyWork style={shop} title={'Shops'}
-                                description={'Technologies: React, Redux, React-router domV6, Redux-thunk, GraphQL,SCSS. The task was performed as a test.Using GraphQL(apollo client.'}
-                                hrefDemo={' https://github.com/SergeyShapliuk/shop-test'}
+                                description={'Technologies: React, Redux, React-router domV6, Redux-thunk, GraphQL,SCSS. The task was performed as a test.Using GraphQL(apollo client). Not mobile version. '}
+                                hrefDemo={'https://sergeyshapliuk.github.io/shop-test/'}
                                 hrefCode={'https://github.com/SergeyShapliuk/shop-test'}/>
                     </Zoom>
                 </div>
