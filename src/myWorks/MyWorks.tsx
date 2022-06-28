@@ -6,7 +6,8 @@ import todolistImage from '../assets/image/todolistImage.jpg'
 import socialNetImage from '../assets/image/socialNetworkImage.jpg'
 import counterImage from '../assets/image/image-for-min.png'
 import cardsImage from '../assets/image/cardsImage.jpg'
-import shopImage from '../assets/image/collageImage.png'
+import shopImage from '../assets/image/shopImage.png'
+import formImage from '../assets/image/formImage.png'
 import Title from "../common/Title/Title";
 import {Zoom} from "react-awesome-reveal";
 
@@ -31,6 +32,10 @@ function MyWorks() {
     const shop = {
         color: 'blue',
         backgroundImage: `url(${shopImage})`,
+    };
+    const forms = {
+        color: 'blue',
+        backgroundImage: `url(${formImage})`,
     };
 
     return (
@@ -59,6 +64,10 @@ function MyWorks() {
                                 description={'Technologies: React, Redux, React-router domV6, Redux-thunk, GraphQL,SCSS. The task was performed as a test.Using GraphQL(apollo client). Not mobile version. '}
                                 hrefDemo={'https://sergeyshapliuk.github.io/shop-test/'}
                                 hrefCode={'https://github.com/SergeyShapliuk/shop-test'}/>
+                        <MyWork style={forms} title={'Feedback form'}
+                                description={'Technologies: React,Typescript,Ajax,SCSS.'}
+                                hrefDemo={'https://sergeyshapliuk.github.io/feedback-form/'}
+                                hrefCode={'https://github.com/SergeyShapliuk/feedback-form'}/>
                     </Zoom>
                 </div>
             </div>
