@@ -12,6 +12,7 @@ import iconAxios from "../assets/image/iconAxios.png";
 import iconHtml from "../assets/image/iconHtml.png";
 import iconCss from "../assets/image/iconCss.png";
 import iconGraphql from "../assets/image/graphql_logo.png";
+import iconPostgreSQL from "../assets/image/postgreSQL_icon.png";
 import {EffectCoverflow, Navigation, Pagination} from "swiper";
 import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/scss';
@@ -57,6 +58,10 @@ function Skills() {
         color: 'blue',
         backgroundImage: `url(${iconGraphql})`,
     };
+    const postgreSQL = {
+        color: 'blue',
+        backgroundImage: `url(${iconPostgreSQL})`,
+    };
 
     return (
         <div id={"about"} className={s.skillsBlock}>
@@ -98,6 +103,8 @@ function Skills() {
                                         description={'Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.'}/></SwiperSlide>
                     <SwiperSlide><Skill style={graphql} title={'GraphQL'}
                                         description={'GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data.GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015. On 7 November 2018, the GraphQL project was moved from Facebook to the newly established GraphQL Foundation, hosted by the non-profit Linux Foundation.'}/></SwiperSlide>
+                    <SwiperSlide><Skill style={postgreSQL} title={'PostgreSQL'}
+                                        description={'PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance. The PostgreSQL community provides many helpful places to become familiar with the technology, discover how it works, and find career opportunities.'}/></SwiperSlide>
                 </Swiper>
             </div>
         </div>

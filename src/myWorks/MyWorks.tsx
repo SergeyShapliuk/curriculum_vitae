@@ -9,6 +9,7 @@ import cardsImage from '../assets/image/cardsImage.jpg'
 import shopImage from '../assets/image/shopImage.png'
 import formImage from '../assets/image/formImage.png'
 import tableImage from '../assets/image/tableImage.png'
+import postgreSqlImage from '../assets/image/postgreSqlTable.png'
 import Title from "../common/Title/Title";
 import {Zoom} from "react-awesome-reveal";
 
@@ -41,6 +42,10 @@ function MyWorks() {
     const table = {
         color: 'blue',
         backgroundImage: `url(${tableImage})`,
+    };
+  const postgreSql = {
+        color: 'blue',
+        backgroundImage: `url(${postgreSqlImage})`,
     };
 
     return (
@@ -77,6 +82,10 @@ function MyWorks() {
                                 description={'Used technologies: JavaScript, TypeScript, React, Redux. '}
                                 hrefDemo={' https://counter-pet-project.herokuapp.com'}
                                 hrefCode={'https://github.com/SergeyShapliuk/counter'}/>
+                        <MyWork style={postgreSql} title={'PostgreSQL table'}
+                                description={'Used technologies: TypeScript, React, Redux Toolkit, PostgreSQL, Axios. '}
+                                hrefDemo={' https://sergeyshapliuk.github.io/postgres_table/?'}
+                                hrefCode={'https://github.com/SergeyShapliuk/postgres_table'}/>
                     </Zoom>
                 </div>
             </div>
