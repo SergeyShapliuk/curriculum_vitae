@@ -22,15 +22,15 @@ function Education() {
                     </p>
                     <ul>
                         <li>REACT</li>
+                        <li>REACT-NATIVE</li>
                         <li>TYPESCRIPT</li>
                         <li>JAVASCRIPT</li>
                         <li>HTML & CSS & SASS</li>
                         <li>REDUX & REDUX-TOOLKIT</li>
                         <li>GRAPHQL</li>
-                        <li>AXIOS</li>
-                        <li>REST API</li>
-                        <li>ANT DESIGN</li>
-                        <li>MATERIAL-UI</li>
+                        <li>POSTGRESQL</li>
+                        <li>AXIOS & REST API</li>
+                        <li>ANT DESIGN & MATERIAL-UI</li>
                         <li>UNIT TESTS & JEST</li>
                         <li>STORYBOOK POSTMAN</li>
                     </ul>

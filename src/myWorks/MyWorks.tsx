@@ -53,7 +53,7 @@ function MyWorks() {
             <div className={`${styleContainer.container} ${s.myWorksContainer}`}>
                 <Title title={"My Projects"} titleBg={'portfolio'}/>
                 <div className={s.myWorks}>
-                    <Zoom cascade={true} damping={.01} className={s.zoomMyWorks}>
+                    <Zoom cascade={true} delay={100} damping={0.1} className={s.zoomMyWorks}>
                         <MyWork style={shop} title={'Shops'}
                                 description={'Technologies: React, Redux, React-router domV6, Redux-thunk, GraphQL,SCSS. The task was performed as a test.Using GraphQL(apollo client). Not mobile version. '}
                                 hrefDemo={'https://sergeyshapliuk.github.io/shop-test/'}

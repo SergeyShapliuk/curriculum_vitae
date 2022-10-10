@@ -1,5 +1,5 @@
 import React from 'react';
-import {useFormik} from "formik";
+import {FormikErrors, useFormik} from "formik";
 import axios from "axios";
 import s from "./ContactsForm.module.scss"
 import {Popups} from "../common/feature/popup/Popup";
@@ -18,17 +18,17 @@ const ContactsForm = () => {
         },
         validate: (values: FormValuesType) => {
             const errors: FormValuesType = {}
-            if (!values.email) {
+            if (!values.email?.trim()) {
                 errors.email = 'Required';
             } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)) {
                 errors.email = 'Invalid email address. Enter the correct email';
             }
-            if (!values.name) {
+            if (!values.name?.trim()) {
                 errors.name = 'Name required';
             } else if (values.name.length < 2) {
                 errors.name = 'Must be name contain more characters';
             }
-            if (!values.message) {
+            if (!values.message?.trim()) {
                 errors.message = 'Message required';
             } else if (values.message.length < 7) {
                 errors.message = 'The message must contain more characters';
