@@ -53,6 +53,7 @@ function MyWorks() {
             <div className={`${styleContainer.container} ${s.myWorksContainer}`}>
                 <Title title={"My Projects"} titleBg={'portfolio'}/>
                 <div className={s.myWorks}>
+                    <Zoom cascade={true} damping={.01} duration={500} className={s.zoomMyWorks}>
                         <MyWork style={shop} title={'Shops'}
                                 description={'Technologies: React, Redux, React-router domV6, Redux-thunk, GraphQL,SCSS. The task was performed as a test.Using GraphQL(apollo client). Not mobile version. '}
                                 hrefDemo={'https://sergeyshapliuk.github.io/shop-test/'}
@@ -85,6 +86,7 @@ function MyWorks() {
                                 description={'Used technologies: TypeScript, React, Redux Toolkit, PostgreSQL, Axios. '}
                                 hrefDemo={' https://sergeyshapliuk.github.io/postgres_table/?'}
                                 hrefCode={'https://github.com/SergeyShapliuk/postgres_table'}/>
+                    </Zoom>
                 </div>
             </div>
         </div>
