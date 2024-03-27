@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f734c051.css",
-    "main.js": "/portfolio/static/js/main.f0e2aba7.js",
-    "static/js/787.9b9c0edf.chunk.js": "/portfolio/static/js/787.9b9c0edf.chunk.js",
-    "static/media/socialNetworkImage.jpg": "/portfolio/static/media/socialNetworkImage.755204f707eb7c444b15.jpg",
+    "main.css": "/portfolio/static/css/main.25ab0971.css",
+    "main.js": "/portfolio/static/js/main.ec6c3b0b.js",
+    "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
     "static/media/shopImage.png": "/portfolio/static/media/shopImage.20a7e6e9cc4001cc6b03.png",
-    "static/media/todolistImage.jpg": "/portfolio/static/media/todolistImage.14c0540a54bba1705689.jpg",
-    "static/media/sergey shaplyuk.png": "/portfolio/static/media/sergey shaplyuk.694864b56875dfcb208f.png",
+    "static/media/sergey shaplyuk.pdf": "/portfolio/static/media/sergey shaplyuk.3b1bd67ff372b5c6b75f.pdf",
     "static/media/cardsImage.jpg": "/portfolio/static/media/cardsImage.5a89ca6d989d4720ae0a.jpg",
     "static/media/tableImage.png": "/portfolio/static/media/tableImage.bc61d134efe782273879.png",
     "static/media/postgreSqlTable.png": "/portfolio/static/media/postgreSqlTable.a7232ea29a05d54f6cf3.png",
     "static/media/postgreSQL_icon.png": "/portfolio/static/media/postgreSQL_icon.125f3ddae3697b355c7e.png",
+    "static/media/tap_table.png": "/portfolio/static/media/tap_table.4bba10f238294a065f4a.png",
     "static/media/photo_.jpg": "/portfolio/static/media/photo_.ee76a6f857ede343d1ce.jpg",
-    "static/media/image-for-min.png": "/portfolio/static/media/image-for-min.c2928fd1daef4c07aa9a.png",
     "static/media/formImage.png": "/portfolio/static/media/formImage.de70fd2a2d8e04f9b33b.png",
+    "static/media/dotbigLogo.png": "/portfolio/static/media/dotbigLogo.94d987e7c2cea67171a3.png",
     "static/media/graphql_logo.png": "/portfolio/static/media/graphql_logo.aeaf34bbaeb405d851db.png",
     "static/media/iconReact.png": "/portfolio/static/media/iconReact.0f0770d11005fa1eadb0.png",
     "static/media/iconHtml.png": "/portfolio/static/media/iconHtml.dcd6f79476d4c2b1feaa.png",
@@ -23,14 +22,17 @@
     "static/media/iconGit.png": "/portfolio/static/media/iconGit.f43e2ebc6cb742103593.png",
     "static/media/iconRedux.png": "/portfolio/static/media/iconRedux.4bebbe1e5361c338b767.png",
     "static/media/iconTS.png": "/portfolio/static/media/iconTS.bb13ebd9561a6ee645c2.png",
+    "static/media/androidLogo.png": "/portfolio/static/media/androidLogo.89fe62949d3bc9befac2.png",
+    "static/media/nomoLogo.png": "/portfolio/static/media/nomoLogo.b89b8fc6ce7b45d5c5bf.png",
+    "static/media/iosLogo.png": "/portfolio/static/media/iosLogo.1511c3d419cb16aec154.png",
     "static/media/iconJs.png": "/portfolio/static/media/iconJs.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
-    "main.f734c051.css.map": "/portfolio/static/css/main.f734c051.css.map",
-    "main.f0e2aba7.js.map": "/portfolio/static/js/main.f0e2aba7.js.map",
-    "787.9b9c0edf.chunk.js.map": "/portfolio/static/js/787.9b9c0edf.chunk.js.map"
+    "main.25ab0971.css.map": "/portfolio/static/css/main.25ab0971.css.map",
+    "main.ec6c3b0b.js.map": "/portfolio/static/js/main.ec6c3b0b.js.map",
+    "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f734c051.css",
-    "static/js/main.f0e2aba7.js"
+    "static/css/main.25ab0971.css",
+    "static/js/main.ec6c3b0b.js"
   ]
 }
