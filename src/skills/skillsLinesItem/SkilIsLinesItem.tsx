@@ -18,10 +18,10 @@ function SkillItem() {
                         <h3>React - 70%</h3><span className={s.bar}><span className={s.react}></span></span>
                     </li>
                     <li>
-                        <h3>Redux - 75%</h3><span className={s.bar}><span className={s.redux}></span></span>
+                        <h3>React-native - 80%</h3><span className={s.bar}><span className={s.axios}></span></span>
                     </li>
                     <li>
-                        <h3>Axios - 80%</h3><span className={s.bar}><span className={s.axios}></span></span>
+                        <h3>Redux - 75%</h3><span className={s.bar}><span className={s.redux}></span></span>
                     </li>
                     <li>
                         <h3>Git - 63%</h3><span className={s.bar}><span className={s.git}></span></span>

@@ -1,5 +1,49 @@
 @import "common/styles/sass/mixins";
-.app{
+
+.app {
   overflow: hidden;
-@include backgroundDark()
+  @include backgroundDark()
+}
+
+.demo1-ball {
+  border-radius: 99px;
+  background-color: transparent;
+  width: 35px;
+  height: 35px;
+  //border: 1px solid white;
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ball-0 {
+  background-image: url("../src/assets/image/iconJs.png");
+}
+
+.ball-1 {
+  background-image: url("../src/assets/image/iconTS.png");
+}
+
+.ball-2 {
+
+  background-image: url("../src/assets/image/iconReact.png");
+}
+
+.ball-3 {
+  background-image: url("../src/assets/image/iconHtml.png");
+}
+
+.ball-4 {
+  background-image: url("../src/assets/image/iconRedux.png");
+}
+
+.ball-5 {
+  background-image: url("../src/assets/image/androidLogo.png");
+}
+
+.ball-6 {
+  background-image: url("../src/assets/image/iosLogo.png");
 }

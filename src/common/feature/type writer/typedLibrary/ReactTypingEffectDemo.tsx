@@ -1,16 +1,14 @@
-import React from 'react';
+import React from "react";
 import ReactTypingEffect from "react-typing-effect";
-import s from "../TypeWrite.module.scss"
+import s from "../TypeWrite.module.scss";
 
 
-
-
-function ReactTypingEffectDemo (){
+function ReactTypingEffectDemo() {
     return (
         <div className={s.typeWrite}>
             <ReactTypingEffect
                 className={s.s}
-                text={["Frontend Develope", "Freelance"]}
+                text={["Frontend Develope", "Mobile Develope"]}
                 cursor={"R"}
                 cursorClassName={s.typeWriteCursor}
                 speed={100}
@@ -20,7 +18,7 @@ function ReactTypingEffectDemo (){
                 displayTextRenderer={(text, i) => {
                     return (
                         <h3>
-                            {text.split('').map((char, i) => {
+                            {text.split("").map((char, i) => {
                                 const key = `${i}`;
                                 return (
                                     <span

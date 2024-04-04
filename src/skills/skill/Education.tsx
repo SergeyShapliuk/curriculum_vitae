@@ -15,7 +15,7 @@ function Education() {
                     </div>
                     <h4>2021-2022</h4>
                     <h2>IT-INCUBATOR</h2>
-                    <h3>Frontend Developer - (JS,TypeScript,React)</h3>
+                    <h3>Frontend Developer -{'\n'}React, React-native, Typescript</h3>
 
                     <span>Online it-school. Belarus. Minsk</span>
                     <p>I studied the following technologies:
