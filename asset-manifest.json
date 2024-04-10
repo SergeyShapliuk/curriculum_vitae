@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2d624955.css",
-    "main.js": "/portfolio/static/js/main.13c30d84.js",
+    "main.css": "/portfolio/static/css/main.2d22ad2b.css",
+    "main.js": "/portfolio/static/js/main.73063d12.js",
     "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
-    "static/media/shopImage.png": "/portfolio/static/media/shopImage.20a7e6e9cc4001cc6b03.png",
-    "static/media/todolistImage.jpg": "/portfolio/static/media/todolistImage.14c0540a54bba1705689.jpg",
+    "static/media/shopImage.png": "/portfolio/static/media/shopImage.c9585fb7b8f9a2e92922.png",
+    "static/media/dotbigBanner.png": "/portfolio/static/media/dotbigBanner.dfeec184259f848dd096.png",
+    "static/media/tap_table_banner.png": "/portfolio/static/media/tap_table_banner.5950afa24d345f376fda.png",
     "static/media/sergey shaplyuk.pdf": "/portfolio/static/media/sergey shaplyuk.3b1bd67ff372b5c6b75f.pdf",
-    "static/media/tableImage.png": "/portfolio/static/media/tableImage.bc61d134efe782273879.png",
+    "static/media/nomoBanner.png": "/portfolio/static/media/nomoBanner.a7921cba88e1062e2320.png",
     "static/media/postgreSQL_icon.png": "/portfolio/static/media/postgreSQL_icon.125f3ddae3697b355c7e.png",
     "static/media/tap_table.png": "/portfolio/static/media/tap_table.4bba10f238294a065f4a.png",
     "static/media/photo_.jpg": "/portfolio/static/media/photo_.ee76a6f857ede343d1ce.jpg",
+    "static/media/todolistImage.jpg": "/portfolio/static/media/todolistImage.378837b6e3fd551352c8.jpg",
     "static/media/dotbigLogo.png": "/portfolio/static/media/dotbigLogo.94d987e7c2cea67171a3.png",
+    "static/media/demo.jpg": "/portfolio/static/media/demo.dbfe2117fdb5c2e53c0b.jpg",
     "static/media/graphql_logo.png": "/portfolio/static/media/graphql_logo.aeaf34bbaeb405d851db.png",
+    "static/media/github.jpg": "/portfolio/static/media/github.6691030e1b61d2c8ccb5.jpg",
     "static/media/iconReact.png": "/portfolio/static/media/iconReact.0f0770d11005fa1eadb0.png",
     "static/media/iconHtml.png": "/portfolio/static/media/iconHtml.dcd6f79476d4c2b1feaa.png",
     "static/media/icon-codewars.png": "/portfolio/static/media/icon-codewars.5ea9f8a4a4c4f3fe01ad.png",
     "static/media/iconCss.png": "/portfolio/static/media/iconCss.e0f4c2733bb405f4a67d.png",
+    "static/media/about.png": "/portfolio/static/media/about.cb8ec6c255542fcdf5eb.png",
     "static/media/icon-telegram.png": "/portfolio/static/media/icon-telegram.9f245f3233b0faea9ffa.png",
     "static/media/iconGit.png": "/portfolio/static/media/iconGit.f43e2ebc6cb742103593.png",
     "static/media/iconRedux.png": "/portfolio/static/media/iconRedux.4bebbe1e5361c338b767.png",
@@ -25,12 +30,12 @@
     "static/media/iosLogo.png": "/portfolio/static/media/iosLogo.1511c3d419cb16aec154.png",
     "static/media/iconJs.png": "/portfolio/static/media/iconJs.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
-    "main.2d624955.css.map": "/portfolio/static/css/main.2d624955.css.map",
-    "main.13c30d84.js.map": "/portfolio/static/js/main.13c30d84.js.map",
+    "main.2d22ad2b.css.map": "/portfolio/static/css/main.2d22ad2b.css.map",
+    "main.73063d12.js.map": "/portfolio/static/js/main.73063d12.js.map",
     "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d624955.css",
-    "static/js/main.13c30d84.js"
+    "static/css/main.2d22ad2b.css",
+    "static/js/main.73063d12.js"
   ]
 }
