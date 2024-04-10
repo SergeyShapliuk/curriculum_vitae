@@ -15,7 +15,7 @@ function NavSkills() {
                     <NavLink to={'/educ'} className={(navData) => navData.isActive ? s.active : ""}>Education</NavLink>
                 </div>
                 <div className={s.textSkills}>
-                    <NavLink to={'/lines'} className={(navData) => navData.isActive ? s.active : ""}>Skills </NavLink>
+                    <NavLink to={'/lines'} className={(navData) => navData.isActive ? s.active : ""}>Skills</NavLink>
                 </div>
             </div>
 

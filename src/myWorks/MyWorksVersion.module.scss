@@ -1,0 +1,37 @@
+@import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
+
+.myWorksBlock {
+  max-width: 100%;
+  min-height: 100vh;
+
+  @include backgroundLight();
+
+  .myWorksContainer {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .myWorks {
+      max-width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      align-items: flex-start;
+      @media screen and (max-width: 1129px) {
+        justify-content: center;
+
+        .zoomMyWorks {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          margin: 10px;
+        }
+      }
+    }
+  }
+}
+
+
+

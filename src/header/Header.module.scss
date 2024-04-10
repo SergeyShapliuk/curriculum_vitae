@@ -14,3 +14,22 @@
   //background-size: cover;
   //font-family: sans-serif;
 }
+
+.background{
+  //position: absolute;
+  //top: 3px;
+  //left: 0;
+  //bottom: 63%;
+  //width: 210px;
+  //background: rgba(112, 112, 112, 0.11);
+  //border-bottom-right-radius: 50px;
+}
+.navItem{
+  position: fixed;
+  top: 0;
+  left: 0;
+  //bottom: 0;
+  width: 300px;
+  z-index: 3;
+  background-color: red;
+}

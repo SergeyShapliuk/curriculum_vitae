@@ -26,7 +26,6 @@ a{
       margin-left: 80px;
       padding: 10px;
 
-
       &::before{
         content: '';
         width: 50px;
@@ -39,6 +38,7 @@ a{
       }
     }
     .textSkills {
+      position: relative;
       margin-left: 80px;
       padding: 10px;
 

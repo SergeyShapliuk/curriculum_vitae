@@ -6,25 +6,24 @@ import Contacts from "../contacts/Contacts";
 import MyWorks from "../myWorks/MyWorks";
 
 
-
-
-function Routers(){
-    return(
+function Routers() {
+    return (
         <div>
-          <Routes>
-              <Route path={'/'} element={<Main/>}/>
-              <Route path={'/about'} element={<Skills/>}/>
-              <Route path={'/portfolio'} element={<MyWorks/>}/>
-              <Route path={'/contacts'} element={<Contacts/>}/>
+            <Routes>
+                <Route path={"/home"} element={<Main/>}/>
+                <Route path={"/about"} element={<Skills/>}/>
+                <Route path={"/my_works"} element={<MyWorks/>}/>
+                <Route path={"/contacts"} element={<Contacts/>}/>
 
+                {/*<Route path={'*'} element={<Navigate to={'/'}/>}/>*/}
 
-              <Route path={'*'} element={<Navigate to={'/'}/>}/>
-              <Route path={'/404'} element={<h1>404: PAGE NOT FOUND</h1>}/>
-              <Route path={'*'} element={<Navigate to={'/404'}/>}/>
-          </Routes>
+                <Route path={"*"} element={<Navigate to={"/404"}/>}/>
+                {/*<Route path={'/404'} element={<h1>404: PAGE NOT FOUND</h1>}/>*/}
+            </Routes>
 
 
         </div>
-    )
+    );
 }
+
 export default Routers;

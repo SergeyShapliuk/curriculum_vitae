@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./Popup.module.scss";
-import infoImage from "../../../assets/image/Info.png"
+import infoImage from "../../../assets/image/about.png"
 
 
 function Popup(props: any) {
