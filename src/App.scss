@@ -1,8 +1,16 @@
 @import "common/styles/sass/mixins";
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  animation-fill-mode: backwards !important;
+}
+
 .app {
-  overflow: hidden;
-  @include backgroundDark()
+  overflow: auto;
+  @include backgroundDark();
 }
 
 .demo1-ball {

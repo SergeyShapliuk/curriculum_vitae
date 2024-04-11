@@ -53,13 +53,12 @@ export const Card = memo(
         const cardRef = useRef(null);
         const constraints = useScrollConstraints(cardRef, selectedId !== "");
 
-        // const constraints = { top: 0, bottom: 1000 };
 
         function checkSwipeToDismiss() {
             if (y.get() > dismissDistance) {
                 y.set(0);
                 setSelectedId("");
-                console.log('ppppreeeessss')
+                // console.log('ppppreeeessss')
             }
             // y.get() > dismissDistance && navigate("/");
         }
@@ -67,13 +66,13 @@ export const Card = memo(
         function checkZIndex(latest: ResolvedValues) {
             // console.log("checkZIndex", latest);
             if (selectedId === id) {
-                zIndex.set(1);
+                zIndex.set(32);
             } else if (selectedId !== id) {
                 zIndex.set(0);
                 y.set(0);
             }
         }
-
+        // console.log('ppppreeeessss',constraints)
         const containerRef = useRef<HTMLLIElement>(null);
         useWheelScroll(
             containerRef,

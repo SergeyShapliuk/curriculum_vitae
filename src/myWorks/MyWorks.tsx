@@ -68,7 +68,7 @@ import {Images} from "../assets/Images";
 //
 // export default MyWorks;
 
-const List = () => {
+const MyWorksList = () => {
     // const {id} = useParams();
 
 
@@ -111,7 +111,7 @@ const List = () => {
 
     );
 };
-export default List;
+export default MyWorksList;
 const workData: WorkDataType[] = [
     {
         id: "1",
@@ -120,7 +120,7 @@ const workData: WorkDataType[] = [
         category: "Mobile",
         title: "Tap-Table",
         description: "Online service for booking tables in restaurants and cafes, providing users with the ability to quickly and conveniently select and reserve tables.\nI was responsible for the development of the application and deployment in a production environment.\nTechnologies: React-native, Redux-toolkit, React navigation.",
-        pointOfInterest: 80,
+        pointOfInterest: 0,
         androidLink: "https://play.google.com/store/apps/details?id=com.taptable",
         iosLink: "https://apps.apple.com/by/app/taptable-%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D1%82%D0%BE%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2/id6447489142"
     }, {
@@ -130,7 +130,7 @@ const workData: WorkDataType[] = [
         category: "Mobile",
         title: "Nomo Academy",
         description: "Nomo academy operates as an online educational app under the ownership of Nomo Tech sp.z.o.o., a Polish entity.\nI was responsible for the development of the application and deployment in a production environment.\nTechnologies: React-native, Redux-toolkit, React navigation.",
-        pointOfInterest: 100,
+        pointOfInterest: 70,
         androidLink: "https://play.google.com/store/apps/details?id=com.taptable",
         iosLink: "https://apps.apple.com/by/app/taptable-%D0%B1%D1%80%D0%BE%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D1%82%D0%BE%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2/id6447489142"
     },
@@ -150,7 +150,7 @@ const workData: WorkDataType[] = [
         category: "Web",
         title: "Shops",
         description: "Technologies: React, Redux, React-router domV6, Redux-thunk, GraphQL,SCSS. The task was performed as a test.Using GraphQL(apollo client). Not mobile version. ",
-        pointOfInterest: 120,
+        pointOfInterest: 50,
         hrefDemo: "https://sergeyshapliuk.github.io/shop-test/",
         hrefCode: "https://github.com/SergeyShapliuk/shop-test"
     },

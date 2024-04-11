@@ -7,10 +7,10 @@ import Footer from "./footer/Footer";
 import HeaderSkills from "./header/HeaderSkills";
 import {Fade} from "react-awesome-reveal";
 import Header from "./header/Header";
-import List from "./myWorks/MyWorks";
 import {motion, useScroll} from "framer-motion";
 import ButtonScrollToTop from "./ui/ButtonScrollToTop";
 import CursorBalls from "./ui/CursorBalls";
+import MyWorksList from "./myWorks/MyWorks";
 
 
 function App() {
@@ -38,7 +38,7 @@ function App() {
                 <Main/>
                 <Skills/>
                 <HeaderSkills/>
-                <List/>
+                <MyWorksList/>
                 <Contacts/>
                 <Footer/>
             </Fade>

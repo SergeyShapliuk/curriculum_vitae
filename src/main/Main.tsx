@@ -5,6 +5,7 @@ import ReactTypingEffectDemo from "../common/feature/type writer/typedLibrary/Re
 import photo from "../assets/image/photo_.jpg";
 import {Element} from "react-scroll";
 
+
 function Main() {
     let bg: any = document.querySelectorAll("#photo");
     for (let i = 0; i < bg.length; i++) {
@@ -25,7 +26,8 @@ function Main() {
                         <p>
                             I'm a based front‑end developer
                             focused on crafting clean & user‑friendly
-                            Single-page application (SPA), PWA and mobile apps with React / React-native / TypeScript.
+                            Single-page application (SPA), PWA and mobile apps with React / React-native /
+                            TypeScript.
                             I am passionate about building excellent software that improves
                             the lives of those around me.
                         </p>
