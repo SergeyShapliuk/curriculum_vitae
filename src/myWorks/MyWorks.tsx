@@ -151,8 +151,8 @@ const workData: WorkDataType[] = [
         title: "Shops",
         description: "Technologies: React, Redux, React-router domV6, Redux-thunk, GraphQL,SCSS. The task was performed as a test.Using GraphQL(apollo client). Not mobile version. ",
         pointOfInterest: 50,
-        hrefDemo: "https://sergeyshapliuk.github.io/shop-test/",
-        hrefCode: "https://github.com/SergeyShapliuk/shop-test"
+        hrefDemo: "https://sergeyshapliuk.github.io/shop/",
+        hrefCode: "https://github.com/SergeyShapliuk/shop"
     },
     {
         id: "5",
